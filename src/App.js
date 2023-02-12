@@ -1,11 +1,17 @@
-import logo from './logo.svg';
+import React from "react";
 
 
-function App() {
+
+import Gallery from "./components/Gallery";
+
+
+
+function App() { 
   return (
-    <div className="App">
-       TECHX 23
-    </div>
+    <>
+  <Gallery></Gallery>
+      
+    </>
   );
 }
 
