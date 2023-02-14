@@ -23,7 +23,7 @@
 }
 .gallery-header h2{
  font-family: 'Drummer';
-  font-size: 5rem;
+  
 
 }
 
@@ -94,6 +94,11 @@
   height: 380px !important;
   width: 576px !important;
 }
+.gallery-header h2{
+  font-family: 'Drummer';
+   font-size: 5rem;
+ 
+ }
 .swiper-slide-active img{
   filter: brightness(100%) !important;
 }
