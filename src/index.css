@@ -1,6 +1,10 @@
 
 
 /* gallery styles starts */
+@font-face {
+  font-family: 'Drummer Bold';
+  src: local('Drummer Bold') url(./components/assets/Eugene\ Bunin\ -\ Drummer\ Bold.ttf) format('truetype');
+}
 
 .swiper {
   width: 100%;
@@ -16,6 +20,11 @@
   background-size: cover;
   width: 550px !important;
   height: 350px !important;
+}
+.gallery-header h2{
+ font-family: 'Drummer';
+  font-size: 5rem;
+
 }
 
 @media(max-width:920px){
