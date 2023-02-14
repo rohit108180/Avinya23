@@ -1,15 +1,27 @@
-import React from "react";
-
-
-
+import React, { useEffect, useState } from "react";
 import Gallery from "./components/Gallery";
-
-
+import InitialLoader from "./components/Loader/InitialLoader";
 
 function App() { 
+
+  const [loading, setLoading] = useState(false);
+  
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(()=>{
+      setLoading(false)
+    }, 4000)
+  }, [])
+
   return (
     <>
-  <Gallery></Gallery>
+    {
+      loading ? (<InitialLoader />) :
+      (
+        <Gallery />
+      )
+    }
+  
       
     </>
   );
