@@ -77,5 +77,15 @@ span
   }
 }
 
+@media screen and (max-width:780px){
+  .ring{
+    width: 200px;
+    height: 200px;
+    font-size:10px;
+    line-height:60px;
+
+  }
+}
+
 
 
