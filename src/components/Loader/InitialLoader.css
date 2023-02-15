@@ -9,33 +9,32 @@ body
   padding:0;
   background:#03191E;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
-h1{
-    margin-top: 280px;
+.ring h1{
+    margin-top: 180px;
 }
 .ring
 {
   position:absolute;
-  top:40%;
+  top:50%;
   justify-content: center;
   left:50%;
   transform:translate(-50%,-50%);
-  width:700px;
-  height:700px;
+  width:500px;
+  height:500px;
   background:linear-gradient(233deg, #64009A, #3B22AA, #B3007D);
   border:3px solid transparent;
   border-radius:50%;
   text-align:center;
   line-height:150px;
   font-family:myFont;
-  font-size:40px;
+  font-size:28px;
   color:white;
   letter-spacing:4px;
   text-transform:uppercase;
   text-shadow:0 0 10px white;
   box-shadow:0 0 20px white;
-
   /* box-shadow:0 0 20px rgba(0,0,0,.5); */
 }
 .ring:after
@@ -78,6 +77,9 @@ span
 }
 
 @media screen and (max-width:780px){
+  .ring h1{
+    margin-top: 75px;
+  }
   .ring{
     width: 200px;
     height: 200px;

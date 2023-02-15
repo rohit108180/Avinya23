@@ -10,7 +10,7 @@ function App() {
     setLoading(true);
     setTimeout(()=>{
       setLoading(false)
-    }, 4000)
+    }, 3500)
   }, [])
 
   return (
@@ -18,7 +18,9 @@ function App() {
     {
       loading ? (<InitialLoader />) :
       (
+        <>
         <Gallery />
+        </>
       )
     }
   
