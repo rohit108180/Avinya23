@@ -5,7 +5,7 @@ function InitialLoader() {
   return (
     <>
         <div class="ring">
-          <h1>TECHX 23</h1>
+          <h1>AVINYA 23</h1>
         <span></span>
         </div>
     </>
