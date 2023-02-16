@@ -23,8 +23,7 @@
   height: 350px !important;
 }
 .gallery-header h2{
- font-family: 'Drummer';
-  
+  font-family: 'Orbitron'!important;
 
 }
 
@@ -45,6 +44,9 @@
     /* height: 300px !important;
     width: 300px !important;  */
   }
+  .gallery-header h2{
+    font-size: 4.8rem !important;
+  }
   .swiper-slide-active img{
     filter: brightness(100%) !important;
   }
@@ -53,6 +55,9 @@
   }
 }
 @media(max-width:420px){
+  .gallery-header h2{
+    font-size: 3rem !important;
+  }
   .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -97,7 +102,7 @@
 }
 .gallery-header h2{
   font-family: 'Orbitron'!important;
-  font-size: 5rem;
+  font-size: 5rem !important;
  
  }
 .swiper-slide-active img{
