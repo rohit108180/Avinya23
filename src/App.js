@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Gallery from "./components/Gallery";
+import Events from "./components/Events/Events"
 import InitialLoader from "./components/Loader/InitialLoader";
 import Participate from "./components/Participate";
 
@@ -21,6 +22,7 @@ function App() {
           (
             <>
               <Participate />
+              <Events/>
               <Gallery />
             </>
           )
