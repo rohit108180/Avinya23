@@ -3,6 +3,8 @@ import Gallery from "./components/Gallery";
 import Events from "./components/Events/Events"
 import InitialLoader from "./components/Loader/InitialLoader";
 import Participate from "./components/Participate";
+import Footer from "./components/Footer"
+import Discord from "./components/Dicord"
 
 function App() {
 
@@ -24,6 +26,8 @@ function App() {
               <Participate />
               <Events/>
               <Gallery />
+              <Discord/>
+              <Footer/>
             </>
           )
       }
