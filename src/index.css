@@ -12,6 +12,9 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.gallery-header h2{
+  text-transform: uppercase !important;
+}
 .swiper-3d {
   perspective: 190px !important;
 }
