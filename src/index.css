@@ -1,10 +1,11 @@
 
 
 /* gallery styles starts */
-@font-face {
-  font-family: 'Drummer Bold';
-  src: local('Drummer Bold') url(./components/assets/Eugene\ Bunin\ -\ Drummer\ Bold.ttf) format('truetype');
-}
+/* @font-face {
+  font-family: 'Akira-expanded';
+  font-weight: 300;
+  src: URL('components/assets/Akira Expanded.otf') format('opentype');
+} */
 
 .swiper {
   width: 100%;
@@ -95,8 +96,8 @@
   width: 576px !important;
 }
 .gallery-header h2{
-  font-family: 'Drummer';
-   font-size: 5rem;
+  font-family: 'Orbitron'!important;
+  font-size: 5rem;
  
  }
 .swiper-slide-active img{

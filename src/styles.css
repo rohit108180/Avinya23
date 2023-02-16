@@ -55,7 +55,7 @@ body {
 
 .gallery-section {
   background: #03191e;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
   font-size: 14px;
   color: white;
   margin: 0;
