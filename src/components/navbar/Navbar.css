@@ -1,0 +1,31 @@
+nav {
+    height: 100px;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: "Baloo 2", cursive;
+    z-index: 100;
+}
+
+.nav-item {
+    font-size: larger;
+    margin-left: 40px;
+}
+
+.proj-button {
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 5px 40px;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,78 @@
+.description{
+    padding: 10rem;
+    padding-top: 5rem;
+    color: white;
+    font-family: "Baloo 2", cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.container{
+    display: flex;
+
+}
+
+
+.description-heading{
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+}
+
+.container img{
+    height: 450px;
+    width: auto;
+    overflow: hidden;
+}
+
+.img{
+    position: relative;
+    height: 450px;
+    width: 450px;
+    overflow: hidden;
+    top: 10rem;
+    left: 5rem;
+}
+
+.description-text{
+    position: relative;
+    background-image: linear-gradient(#3b22aa, #64009a);
+    height: fit-content;
+    width: 30rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.text{
+    font-size: 1.2rem;
+    padding: 2rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.events{
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    margin-top: -2.5rem;
+}
+
+.event-names{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    padding: 2rem;
+    line-height: 1.5rem;
+    justify-content: space-around;
+    margin-top: -3rem;
+}
+.event-names span{
+    margin: 1rem;
+}

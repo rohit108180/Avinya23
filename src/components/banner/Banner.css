@@ -1,0 +1,58 @@
+.banner{
+    width: 100vw;
+    height: 754px;
+    position: relative;
+    background-color: aqua;
+    background-image: url('./banner-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: xx-large;
+
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-self: flex-end;
+    margin-bottom: 5rem;
+}
+
+.dates{
+    margin: 2rem;
+}
+
+button{
+    margin: 2rem;
+    width: 10rem;
+    height: 2.5rem;
+    margin-top: 0;
+}
+
+.typewritercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typewritercontainer p{
+    font-size: x-large;
+    margin: 2px 2rem;
+    display: flex;
+    flex-direction: column;
+}
