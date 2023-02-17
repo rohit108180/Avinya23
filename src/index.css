@@ -151,7 +151,7 @@ color: white;
   }
   .swiper-button-next {
     left: auto;
-    right: var(--swiper-navigation-sides-offset,20px);
+    right: var(--swiper-navigation-sides-offset,9px) !important;
   }
 .swiper-slide-active {
   opacity: 1;
@@ -178,6 +178,16 @@ color: white;
 }
 .swiper-slide-active img{
   filter: brightness(100%) !important;
+}
+@media(min-width:1400px){
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset,4px) !important;
+    right: auto;
+  }
+  .swiper-button-next {
+    left: auto;
+    right: var(--swiper-navigation-sides-offset,24px) !important;
+  }
 }
 /* @media(max-width:412px){
   .swiper-button-next {
