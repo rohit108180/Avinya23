@@ -5,6 +5,8 @@ import InitialLoader from "./components/Loader/InitialLoader";
 import Participate from "./components/Participate";
 import Footer from "./components/Footer"
 import Discord from "./components/Dicord"
+import Sponsors from "./components/timelineSponsors/sponsors/sponsors"
+import Timeline from "./components/timelineSponsors/timeline/timelinediv"
 
 function App() {
 
@@ -26,6 +28,8 @@ function App() {
               <Participate />
               <Events/>
               <Gallery />
+              <Timeline/>
+              <Sponsors/>
               <Discord/>
               <Footer/>
             </>
