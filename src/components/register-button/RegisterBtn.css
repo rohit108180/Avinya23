@@ -1,0 +1,99 @@
+@keyframes backgroundColorPalette {
+    0% {
+        background: rgba(255, 255, 255, 0.2);
+        border: 3px solid #FFFFFF;
+    }
+
+    30% {
+        background: rgba(255, 255, 255, 0.2);
+        border: 3px solid #FFFFFF;
+    }
+
+    65% {
+        background: #fbfbfb;
+    }
+
+
+    75% {
+        background: #fbfbfb;
+    }
+
+    80% {
+        background: #fbfbfb;
+    }
+
+    100% {
+        background: #fbfbfb;
+    }
+
+}
+
+@keyframes colorPalette {
+    0% {
+        color: #fbfbfb;
+        /* background: linear-gradient(to right,#fbfbfb, #fbfbfb,#fbfbfb,#fbfbfb); */
+        /* -webkit-text-fill-color: transparent; */
+        /* -webkit-background-clip: text; */
+    }
+
+    30% {
+        color: #fbfbfb;
+    }
+
+    70% {
+        background: linear-gradient(to right, #f32170, #ff6b08,
+                #cf23cf, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    80% {
+        background: linear-gradient(to right, #f32170, #ff6b08,
+                #cf23cf, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    90% {
+        background: linear-gradient(to right, #f32170, #ff6b08,
+                #cf23cf, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(to right, #f32170, #ff6b08,
+                #cf23cf, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
+
+.register {
+    /* animation-name: backgroundColorPalette;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: backgroundColorPalette 5s ease-in-out 5s infinite alternate;
+    height: 4vw;
+    width: 13vw;
+    display: inline-block;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    border: 3px solid #FFFFFF;
+    text-align: center;
+}
+
+.b1 {
+    animation: colorPalette 5s ease-in-out 5s infinite alternate;
+    /* animation-name: colorPalette;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    font-family: Rubik;
+    font-size: 1.3vw;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+}

@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
   font-family: myFont;
   src: url(Akira-Expanded-Bold.otf);
-}
+} */
 
 body
 {
@@ -52,7 +52,7 @@ body
    box-shadow:0 0 20px white;
   animation:animateC 2s linear infinite;
 }
-span
+/* span
 {
   display:block;
   position:absolute;
@@ -62,7 +62,7 @@ span
   height:4px;
   background:transparent;
   transform-origin:left;
-}
+} */
 /*  */
 @keyframes animateC
 {
