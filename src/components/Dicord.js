@@ -1,13 +1,19 @@
 import React from 'react'
-import './Discord.css';
-const Dicord = () => {
-  return (
-    <div className='head'>
-      <h2>JOIN OUR DISCORD SERVER</h2>
-      <h2>TO STAY UPDATED</h2>
-      <a href='/'><button className='join_butt'>JOIN</button></a>
-    </div>
-  )
+
+const Discord = () => {
+   return (
+      <div className="discordContainer">
+        <div>
+            <p className="discordText">JOIN OUR DISCORD SERVER</p>
+            <p className="discordText">TO STAY UPDATED</p>
+        </div>
+        <div>
+          <a href="#" target="_blank">
+            <button className="discordButton"><p className='discordButtonText'>JOIN</p></button>
+          </a>
+        </div>
+      </div>
+    );
 }
 
-export default Dicord
+export default Discord
