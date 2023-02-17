@@ -15,6 +15,9 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.gallery-header h2{
+  text-transform: uppercase !important;
+}
 .swiper-3d {
   perspective: 190px !important;
 }
@@ -125,3 +128,40 @@
   filter: brightness(100%) !important;
 }
 /* gallery styles ends */
+
+/* discord component styles starts*/
+.discordContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 15rem auto;
+  text-align: center;
+  font-family: 'Akira-expanded';
+  color: #FBFBFB;
+  justify-content: center;
+  padding: auto;
+}
+
+.discordButton {
+  width: 35vw;
+  margin: 4rem;
+  background: hsla(312, 44%, 78%, 1);
+  background: linear-gradient(0deg, hsla(312, 44%, 78%, 1) 0%, hsla(306, 58%, 69%, 1) 13%, hsla(295, 58%, 53%, 1) 46%, hsla(246, 36%, 47%, 1) 75%, hsla(255, 71%, 22%, 1) 100%);
+  background: -moz-linear-gradient(0deg, hsla(312, 44%, 78%, 1) 0%, hsla(306, 58%, 69%, 1) 13%, hsla(295, 58%, 53%, 1) 46%, hsla(246, 36%, 47%, 1) 75%, hsla(255, 71%, 22%, 1) 100%);
+  background: -webkit-linear-gradient(0deg, hsla(312, 44%, 78%, 1) 0%, hsla(306, 58%, 69%, 1) 13%, hsla(295, 58%, 53%, 1) 46%, hsla(246, 36%, 47%, 1) 75%, hsla(255, 71%, 22%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DFADD5", endColorstr="#DE83D5", GradientType=1 );
+  border-width: 0.3rem;
+  border-color: #FBFBFB;
+}
+
+.discordButtonText {
+  font-family: 'Akira-expanded';
+  color: #FBFBFB;
+  font-size: 1.3rem;
+  letter-spacing: 0.3rem;
+  padding: 1rem;
+}
+
+.discordText {
+  font-size: 2.5rem;
+}
+/* discord component styles end */

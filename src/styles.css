@@ -61,14 +61,17 @@ body {
   margin: 0;
   padding: 0;
   width: 100vw;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin: auto;
+  /* margin-left: -10px;
+  margin-right: -10px; */
 
 
 
 
 }
-
+.gallery-header h2{
+  text-align: center !important;
+}
 .gallery-header {
   padding: .75rem 0;
 
