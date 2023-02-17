@@ -1,0 +1,106 @@
+.banner {
+    width: 100vw;
+    height: fit-content;
+    position: relative;
+    background-color: aqua;
+    background-image: url("./banner-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    padding: 7vw;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-self: flex-end;
+    margin-bottom: 5rem;
+    padding-bottom: 2vw;
+}
+
+.avinya-logo {
+    width: 30vw;
+    height: auto;
+    align-self: flex-start;
+    /* padding-top: 4vw; */
+}
+
+.dates {
+    /* padding: 5vw; */
+    padding-top: 1vw;
+    padding-bottom: 4vw;
+    padding-left: 8vw;
+    font-size: 2vw;
+    align-self: flex-start;
+    font-family: "montserrat";
+}
+
+.button {
+    padding-top: 1vw;
+    align-self: flex-start;
+    padding-left: 8vw;
+}
+
+.typewritercontainer {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    font-family: "montserrat";
+    font-weight: bold;
+    bottom: 1vw;
+}
+
+.typewritercontainer p {
+    font-size: 1.5vw;
+    margin: 2px 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#type-1,
+#type-2 {
+    font-weight: 900;
+    font-size: 3vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .avinya-logo{
+        align-self: center;
+    }
+    .button {
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+    }
+    .dates {
+        padding-left: 0;
+        align-self: center;
+        padding-bottom: 2vw;
+    }
+    .typewritercontainer {
+        padding-top: 2vw;
+        align-self: center;
+        bottom: initial;
+    }
+}
