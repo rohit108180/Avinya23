@@ -1,4 +1,4 @@
-nav {
+.nav {
     height: 100px;
     width: 100vw;
     position: absolute;
@@ -13,6 +13,10 @@ nav {
     z-index: 100;
 }
 
+.nav-2{
+    display: none;
+}
+
 .nav-item {
     font-size: larger;
     margin-left: 40px;
@@ -25,7 +29,27 @@ nav {
     margin-left: 200px;
 }
 
-a {
+.nav a {
     color: white;
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 930px){
+    .nav{
+        display: none;
+    }
+    .nav-2{
+        display: initial;
+    }
+}
+
+@media only screen and (min-width: 930px) and (max-width: 990px) {
+    .nav-item {
+        margin-left: 30px;
+    }
+
+    .proj-button {
+        margin-left: 100px;
+    }
 }

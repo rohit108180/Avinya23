@@ -4,8 +4,8 @@ import "./Description.css";
 export default function Description() {
     return (
         <div className="description">
-            <h1 className="description-heading">DEVCOMM PRESENTS TECHX 2023</h1>
-            <div className="container">
+            <h1 className="description-heading">DEVCOMM PRESENTS AVINYA'23</h1>
+            <div className="desc-container">
                 <div className="img">
                 <img
                     src="https://images.unsplash.com/photo-1562176564-0280c730d87c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
@@ -32,7 +32,6 @@ export default function Description() {
                     </div>
                 </div>
             </div>
-            <div className="description-img"></div>
         </div>
     );
 }
