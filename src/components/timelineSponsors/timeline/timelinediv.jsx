@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Timeline from './timeline';
 import "../stylels.css"
+import Heading from '../../Heading/Heading';
 // import { NavLink } from "react-router-dom";
 
 function Timelinediv() {
@@ -111,7 +112,8 @@ function Timelinediv() {
             <div className="timeline-div-2">
                 <section>
                     <div class="container">
-                        <h1 class="title">EVENT SCHEDULES</h1>
+                        {/* <h1 class="title">EVENT SCHEDULES</h1> */}
+                        <Heading name = "EVENT SCHEDULES"/>
                         <div class="">
                             <button class="timeline-btn" style={activeButton === "Button 1" ? { backgroundColor: "transparent", color: "rgb(99 102 241)", borderColor: "rgb(99 102 241)", borderTopRightRadius: "10px", borderTopLeftRadius: "10px" } : {}} onClick={(e) => { change(e, 1) }}>
                                 DAY 1

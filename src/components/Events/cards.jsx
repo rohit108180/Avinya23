@@ -1,4 +1,5 @@
 import React from 'react'
+import Heading from '../Heading/Heading'
 import './cards.css'
 const Card = (props) => {
 
@@ -6,7 +7,9 @@ const Card = (props) => {
     <>
     <div className='container'>
     <div className='title'>
-        <p>EVENTS</p></div>
+        {/* <p>EVENTS</p> */}
+        <Heading name = "EVENTS"/>
+        </div>
     <div className='card_row'>
         {props.details.map( (value,index) => (
             <div className='card'>

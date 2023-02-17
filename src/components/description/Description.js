@@ -1,10 +1,12 @@
 import React from "react";
+import Heading from "../Heading/Heading";
 import "./Description.css";
 
 export default function Description() {
     return (
         <div className="description">
-            <h1 className="description-heading">DEVCOMM PRESENTS AVINYA'23</h1>
+            {/* <h1 className="description-heading">DEVCOMM PRESENTS AVINYA'23</h1> */}
+            <Heading name = "DEVCOMM PRESENTS AVINYA'23"/>
             <div className="desc-container">
                 <div className="img">
                 <img

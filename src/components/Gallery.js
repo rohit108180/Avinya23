@@ -23,12 +23,13 @@ import "..//styles.css";
 
 // import required modules
 import { EffectCoverflow} from "swiper";
+import Heading from "./Heading/Heading";
 
 export default function App() {
   return (
     <main className="gallery-section">
     <div className="gallery-header">
-      <h2>Gallery</h2>
+      <Heading name = "GALLERY"/>
     </div>
       <Swiper
         effect={"coverflow"}

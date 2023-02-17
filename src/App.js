@@ -10,6 +10,7 @@ import Timeline from "./components/timelineSponsors/timeline/timelinediv"
 import Discord from "./components/Dicord"
 import Sponsors from "./components/timelineSponsors/sponsors/sponsors"
 import Footer from "./components/Footer";
+import Heading from "./components/Heading/Heading";
 
 
 function App() {
@@ -22,12 +23,6 @@ function App() {
         }, 3500);
     }, []);
 
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false)
-    }, 3500)
-  }, [])
 
   return (
 

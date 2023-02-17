@@ -8,6 +8,7 @@ import img6 from "./imagessposi/img6.png"
 import img7 from "./imagessposi/img7.png"
 import SponsorsCard from './sponsorsCard'
 import "../stylels.css"
+import Heading from '../../Heading/Heading'
 
 function sponsors() {
   const sponsor = {
@@ -33,9 +34,7 @@ function sponsors() {
   <>
   <div className="sponsors-contain">
     <div class="sponsors-container">
-      <h1 class="title">
-        EVENT PARTNERS
-      </h1>
+      <Heading name = "EVENT PARTNERS"/>
       <h2 class="sponsors-type">PLATINUM PARTNERS</h2>
       <div className="sponsor-container-div">
         {sponsor.platinum.map((detail, index) => <SponsorsCard key={index} sponsors={detail} />)}
