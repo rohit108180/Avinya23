@@ -1,7 +1,7 @@
 import React  from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import  { Autoplay } from 'swiper';
+import  { Autoplay, Navigation } from 'swiper';
 import img1 from './assets/images/img1.jpg';
 import img2 from './assets/images/img2.jpg';
 import img4 from './assets/images/img4.jpg';
@@ -16,6 +16,8 @@ import img9 from './assets/images/img9.jpg';
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/navigation";
 
 import "..//styles.css";
 
@@ -45,8 +47,9 @@ export default function App() {
         
         }}
         autoplay={true}
-        pagination={true}
-        modules={[EffectCoverflow,Autoplay]}
+        // pagination={true}
+        navigation={true}
+        modules={[EffectCoverflow,Autoplay,Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>

@@ -29,6 +29,15 @@
   font-family: 'Orbitron'!important;
 
 }
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: 63px !important;
+  text-transform: none!important;
+  letter-spacing: 0;
+color: white;
+  font-variant: initial;
+  line-height: 1;
+}
 
 @media(max-width:920px){
   .swiper-slide {
@@ -61,6 +70,25 @@
   .gallery-header h2{
     font-size: 3rem !important;
   }
+   .swiper-button-next {
+    left: auto !important;
+    right: var(--swiper-navigation-sides-offset,4px) !important;
+}
+.swiper-button-prev {
+  right:auto !important;
+  /* right: auto; */
+  left: var(--swiper-navigation-sides-offset,4px) !important;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: 46px !important;
+  text-transform: none!important;
+  letter-spacing: 0;
+  color: white;
+  
+  font-variant: initial;
+  line-height: 1;
+}
   .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -98,6 +126,30 @@
 }
 
 @media(min-width:921px){
+  .swiper-button-next {
+    right: var(--swiper-navigation-sides-offset,9px) !important;
+    /* right: auto; */
+    left: auto;
+    
+  }
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 63px !important;
+    text-transform: none!important;
+    letter-spacing: 0;
+  color: white;
+    font-variant: initial;
+    line-height: 1;
+  }
+  
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset,9px) !important;
+    right: auto;
+  }
+  .swiper-button-next {
+    left: auto;
+    right: var(--swiper-navigation-sides-offset,20px);
+  }
 .swiper-slide-active {
   opacity: 1;
   height: 380px !important;
@@ -124,6 +176,43 @@
 .swiper-slide-active img{
   filter: brightness(100%) !important;
 }
+/* @media(max-width:412px){
+  .swiper-button-next {
+    left: auto !important;
+    right: var(--swiper-navigation-sides-offset,15px) !important;
+}
+.swiper-button-prev {
+  right:auto !important;
+  
+  left: var(--swiper-navigation-sides-offset,15px) !important;
+}
+
+} */
+/* @media(max-width:1024px){
+  .swiper-button-next {
+    left: auto !important;
+    right: var(--swiper-navigation-sides-offset,25px) !important;
+}
+.swiper-button-prev {
+  right:auto !important;
+
+  left: var(--swiper-navigation-sides-offset,25px) !important;
+}
+
+} */
+/* @media(max-width:1280px){
+  .swiper-button-next {
+    left: auto !important;
+    right: var(--swiper-navigation-sides-offset,25px) !important;
+}
+.swiper-button-prev {
+  right:auto !important;
+  
+  left: var(--swiper-navigation-sides-offset,25px) !important;
+}
+
+} */
+
 /* gallery styles ends */
 
 /* discord component styles starts*/
