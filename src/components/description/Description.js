@@ -1,6 +1,7 @@
 import React from "react";
 import Heading from "../Heading/Heading";
 import "./Description.css";
+import devcomm from './1676534542112.jpg'
 
 export default function Description() {
     return (
@@ -8,12 +9,10 @@ export default function Description() {
             {/* <h1 className="description-heading">DEVCOMM PRESENTS AVINYA'23</h1> */}
             <Heading name = "DEVCOMM PRESENTS AVINYA'23"/>
             <div className="desc-container">
-                <div className="img">
-                <img
-                    src="https://images.unsplash.com/photo-1562176564-0280c730d87c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                    alt=""
+                <img className="img"
+                    src={devcomm}
+                    alt="oooolalala"
                 />
-                </div>
                 <div className="description-text">
                     <p className="text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.

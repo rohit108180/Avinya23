@@ -2,8 +2,8 @@
     position: absolute;
     top: 25px;
     left: 30px;
-    background-color: #64009a;
-    box-shadow: 0 1px 15px #fbfbfb4e;
+    background-color: #64009a00;
+    /* box-shadow: 0 1px 15px #fbfbfb4e; */
     width: 40px;
     height: 40px;
     border-radius: 10%;
@@ -71,8 +71,13 @@
 
 .menuWrap .listWrap li {
     white-space: nowrap;
-    background-color: #64009a;
-    box-shadow: 0 1px 15px #fbfbfb4e;
+    /* background-color: #64009a; */
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    background: rgba(194, 194, 194, 0.5);
+    backdrop-filter: blur(8px);
+    /* border-radius: 20px; */
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    /* box-shadow: 0 1px 15px #fbfbfb4e; */
     text-align: left;
     width: fit-content;
     padding: 8px 15px;

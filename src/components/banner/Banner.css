@@ -1,11 +1,12 @@
 .banner {
-    width: 100vw;
+    width: 100%;
     height: fit-content;
     position: relative;
     background-color: aqua;
     background-image: url("./banner-img.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     top: 0;
     left: 0;
     right: 0;
@@ -23,16 +24,15 @@
     align-items: center;
     justify-content: center;
     font-size: xx-large;
-    padding: 7vw;
+    padding: 7vw 3vw;
 }
 .container2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    align-self: flex-end;
-    margin-bottom: 5rem;
-    padding-bottom: 2vw;
+    justify-content: center;
+    align-self: flex-start;
+    padding-left: 8vw;
 }
 
 .avinya-logo {
@@ -46,16 +46,16 @@
     /* padding: 5vw; */
     padding-top: 1vw;
     padding-bottom: 4vw;
-    padding-left: 8vw;
+    /* padding-left: 8vw; */
     font-size: 2vw;
-    align-self: flex-start;
+    /* align-self: flex-start; */
     font-family: "montserrat";
 }
 
 .button {
     padding-top: 1vw;
-    align-self: flex-start;
-    padding-left: 8vw;
+    /* align-self: flex-start; */
+    /* padding-left: 8vw; */
 }
 
 .typewritercontainer {
@@ -85,6 +85,16 @@
 @media only screen and (max-width: 600px) {
     .avinya-logo{
         align-self: center;
+        width: 70vw;
+        margin-top: 8vw;
+        margin-bottom: 5vw;
+    }
+    .container2{
+        align-self: center;
+        flex-direction: row;
+        justify-content: center;
+        margin: 5vw 0;
+        /* width: 100%; */
     }
     .button {
         padding-left: 0;
@@ -92,15 +102,37 @@
         align-items: center;
         justify-content: center;
         align-self: center;
+        margin: 0 4vw;
     }
     .dates {
         padding-left: 0;
         align-self: center;
         padding-bottom: 2vw;
+        margin: 0 4vw;
+        font-size: 4vw;
     }
     .typewritercontainer {
-        padding-top: 2vw;
+        padding-top: 4vw;
         align-self: center;
         bottom: initial;
+    }
+    .typewritercontainer p {
+        font-size: 2vw;
+        margin: 2px 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    #type-1,
+#type-2 {
+    font-weight: 900;
+    font-size: 4vw;
+}
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 990px){
+    .banner{
+        padding: 5vw 0;
     }
 }
