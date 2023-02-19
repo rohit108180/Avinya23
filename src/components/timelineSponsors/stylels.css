@@ -54,7 +54,7 @@ body{
     font-size: 35px;
     text-align: left;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     grid-area: headt;
 }
 .info-timeline{
@@ -80,7 +80,7 @@ body{
     font-size: 35px;
     text-align: right;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     flex-direction: row-reverse;
     grid-area: headt;
 }
