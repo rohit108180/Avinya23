@@ -43,18 +43,28 @@ body{
 }
 
 .timeline-circle{
-    color: greenyellow;
+    color: #687578;
     margin-right: 50px;
     font-size: 100px;
     font-weight: bold;
     text-align: right;
     grid-area: idt;
 }
+.timeline-circle-p{
+    display: inline;
+}
+.timeline-circle-p:hover{
+    background: linear-gradient(#5e00bf, #FE68F4);
+    /* background: linear-gradient(to right, #f32170,
+    #ff6b08, #cf23cf, #eedd44); */
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 .heading-timeline{
     font-size: 35px;
     text-align: left;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     grid-area: headt;
 }
 .info-timeline{
@@ -64,7 +74,7 @@ body{
 }
 
 .timeline-circle-right{
-    color: greenyellow;
+    color: #687578;
     margin-left: 50px;
     font-size: 100px;
     font-weight: bold;
@@ -80,7 +90,7 @@ body{
     font-size: 35px;
     text-align: right;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     flex-direction: row-reverse;
     grid-area: headt;
 }
