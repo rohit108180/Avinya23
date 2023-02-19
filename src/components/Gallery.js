@@ -1,5 +1,6 @@
 import React  from "react";
 // Import Swiper React components
+import { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import  { Autoplay, Navigation } from 'swiper';
 import img1 from './assets/images/img1.jpg';
@@ -20,15 +21,20 @@ import "swiper/css/navigation";
 import "swiper/css/navigation";
 
 import "..//styles.css";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 // import required modules
 import { EffectCoverflow} from "swiper";
 import Heading from "./Heading/Heading";
 
 export default function App() {
+  useEffect(()=>{
+    AOS.init({duration:1000});
+},[]);
 
   return (
-    <main className="gallery-section">
+    <main className="gallery-section" data-aos="fade-left">
     <div className="gallery-header">
       <Heading name = "GALLERY"/>
     </div>
