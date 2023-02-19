@@ -41,15 +41,14 @@
     width: 22em;
     cursor: pointer;
     transition: 1s;
-    border-radius: 10px;
+    
     overflow: hidden;
 }
 .card_img{
     width:100%;
     height:100%;
-    border-radius: 10px;
-}
 
+}
 .card_title{
     position:absolute;
     top:50%;
@@ -63,11 +62,20 @@
     letter-spacing: 0.5rem;
     transition: 1s;
 }
+.card_desc_container{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top: 20%;
+    left:0%;
+    text-align: center;
+}
 .card_desc{
     opacity: 0;
     position: absolute;
-    top:20%;
-    left:12%;
+    top:0%;
+    left:0%;
+    margin: 0.6rem 1rem;
     color:white;
     padding: 0.5rem;
     font-size: 18px;
@@ -84,10 +92,14 @@
     color:white;
     border:1px solid white;
     padding: 0.4rem;
-    border-radius: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
+    font-weight: 600;
+
     text-decoration: none;
     transition: 0.2s;
+    background-color: grey;
+
 }
 
 .card_Rest{
@@ -108,20 +120,21 @@
     transition: 1s;
 }
 .card:hover .card_title{
-    top:12%;
-    left:37%;
+    top:10%;
+    left:15%;
+    transform: translate(0%,0%);
     letter-spacing: 0.2rem;
     font-size: 17px;
-    transition:1s;
+    transition:0.8s;
 }
 .card:hover .card_desc{
     opacity: 1;
-    animation: fadein 1s linear;
+    animation: fadein 0.8s linear;
 }
 
 .card:hover .card_btn{
     opacity: 1;
-    animation: fadein 1s linear;
+    animation: fadein 0.8s linear;
 }
 .card:hover .card_Rest{
     background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100% );;
@@ -129,9 +142,10 @@
 }
 .card_btn:hover{
     padding: 7px 14px;
-    transition: 0.2s;
+    transition: 0.1s;
     color:aqua;
-    border-color: aqua;
+    border:1px solid aqua;
+    
 }
 @keyframes fadein {
     from{opacity: 0}
@@ -139,7 +153,7 @@
     
 }
 /*resposiveness*/
-@media screen and (max-width:1355px){
+@media screen and (max-width:1380px){
     .container{
         margin:0 2rem;
     }
@@ -153,11 +167,12 @@
         transition: 0.5s;
     }
     .card:hover .card_title{
-        top:12%;
-        left:40%;
-        letter-spacing: 0.2rem;
+        top:10%;
+        left:15%;
+        transform: translate(0%,0%);
+        letter-spacing: 0.1rem;
         font-size: 18px;
-        transition:1s;
+        transition:0.8s;
     }
     .card_title{
         font-size:18px;
@@ -180,23 +195,24 @@
         letter-spacing: -4px;
     }
     .card_desc{
-        font-size: 15px;
+        font-size: 16px;
         letter-spacing: 0.05rem;
     }
     .card_title{
         font-size:15px;
     }
     .card:hover .card_title{
-        top:12%;
-        left:50%;
-        letter-spacing: 0.2rem;
+        top:10%;
+        left:15%;
+        transform: translate(0%,0%);
+        letter-spacing: 0.1rem;
         font-size: 18px;
-        transition:1s;
+        transition:0.8s;
     }
     .card_btn:hover{
         padding: 4px 10px;
         transition: 0.2s;
-        color:aqua;
-        border-color: aqua;
+        color:white;
+    background-color: rgb(0, 255, 255,0.5);
     }
 }
