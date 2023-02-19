@@ -53,7 +53,7 @@ function sponsors() {
       </div>
       <h2 class="sponsors-type">OUT PAST SPONSORS</h2>
 
-      {/* <div className="slider-div">
+      <div className="slider-div">
       <div class="slider">
         <div class="slide-track">
           <div class="slide">
@@ -147,7 +147,7 @@ function sponsors() {
           </div>
         </div>
       </div>
-    </div> */}
+    </div>
     
     </div>
     </div>

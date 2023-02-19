@@ -7,7 +7,7 @@
 /* The footer is fixed to the bottom of the page */
 
 footer {
-    position: fixed;
+    position: static;
     bottom: 0;
     font-family: 'Montserrat', sans-serif;
 }
