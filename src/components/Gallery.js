@@ -26,6 +26,7 @@ import { EffectCoverflow} from "swiper";
 import Heading from "./Heading/Heading";
 
 export default function App() {
+
   return (
     <main className="gallery-section">
     <div className="gallery-header">
