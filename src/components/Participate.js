@@ -1,6 +1,8 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Card from "./Card";
 import Heading from "./Heading/Heading";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 // Cards description 
 
@@ -55,6 +57,9 @@ function createCard(card) {
 }
 
 function Participate() {
+    useEffect(()=>{
+        AOS.init({duration:1000});
+    },[]);
     return (
         <div className="participate-section">
             {/* <header>WHY TO PARTICIPATE IN TECHX 2023</header> */}
