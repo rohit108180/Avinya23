@@ -225,7 +225,41 @@ color: white;
 }
 
 } */
-
+@media(max-width:1080px){
+  .swiper-3d{
+    perspective: 139px !important;
+  }
+}
+@media(max-width:954px){
+  .swiper-3d{
+    perspective: 123px !important;
+  }
+}
+@media(max-width:830px){
+  .swiper-3d{
+    perspective: 107px !important;
+  }
+}
+@media(max-width:769px){
+  .swiper-3d{
+    perspective: 93px !important;
+  }
+}
+@media (max-width: 769px){
+.swiper-3d {
+    perspective: 83px !important;
+}
+}
+@media(max-width:668px){
+  .swiper-3d {
+    perspective: 75px !important;
+}
+}
+@media(max-width:598px){
+  .swiper-3d{
+    perspective: 130px !important;
+  }
+}
 /* gallery styles ends */
 
 /* discord component styles starts*/
