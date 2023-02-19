@@ -1,5 +1,6 @@
 .description{
-    padding: 8rem;
+    padding: 0;
+    width: 100%;
     padding-top: 5rem;
     color: white;
     font-family: "Baloo 2", cursive;
@@ -8,37 +9,38 @@
     align-items: center;
     justify-content: center;
     height: fit-content;
+    margin-bottom: 17vw;
+    margin-top: 3vw;
 }
 
 .desc-container{
     display: flex;
-
+    align-items: center;
+    justify-content: center;
 }
 
 
 .description-heading{
     margin-bottom: 5rem;
     font-size: 2.5rem;
+    width: 80%;
     text-align: center;
+    font-family: 'Orbitron';
 }
 
 .description-heading span{
     padding: 3px;
 }
 
-.desc-container img{
-    height: 40vw;
-    width: auto;
-    overflow: hidden;
-}
+
 
 .img{
     position: relative;
-    height: 40vw;
-    width: 40vw;
+    height: 30vw;
+    width: auto;
     overflow: hidden;
-    top: 10rem;
-    left: 2%;
+    top: 10vw;
+    left: 2vw;
 }
 
 .description-text{
@@ -47,18 +49,18 @@
     height: fit-content;
     width: 40vw;
     padding-top: 1rem;
-    left: -2%;
+    left: -2vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-
+    box-shadow: 0 8px 32px 3px #64009a;
 }
 
 .text{
     font-size: 1.2rem;
     padding: 2rem;
-    text-align: justify;
+    text-align: center;
     line-height: 1.5rem;
 }
 
@@ -68,6 +70,7 @@
     text-align: justify;
     line-height: 1.5rem;
     margin-top: -2.5rem;
+    text-align: center;
 }
 
 .event-names{
@@ -75,9 +78,10 @@
     flex-wrap: wrap;
     font-size: 1.2rem;
     padding: 2rem;
-    line-height: 0.5rem;
+    line-height: 1.5rem;
     justify-content: space-around;
     margin-top: -3rem;
+    text-align: center;
 }
 .event-names span{
     margin: 1rem;
@@ -85,101 +89,91 @@
 
 
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:600px){
     .description{
-        padding: 5rem;
+        padding: 0;
     }
     .description-heading{
-        text-align: center;
+        margin: 5vw;
     }
-
     .description-text{
         position: initial;
-
-    }
-    .text{
-
+        width: 80vw;
     }
     .img{
-        position: initial;
-        width: 70vw;
-        height: 70vw;
-
+        display: none;
     }
     .desc-container{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-    .desc-container img{
-        width: 70vw;
-        height: 70vw;
-
     }
 }
 
-@media only screen and (min-width:500px) and (max-width:700px){
+@media only screen and (min-width:600px) and (max-width:700px){
     .description{
-        padding: 6.2rem;
+        padding: 0;
     }
     .description-heading{
         text-align: center;
     }
     .description-text{
         position: initial;
-
-    }
-    .text{
-
+        width: 80vw;
     }
     .img{
-        position: initial;
-        width: 70vw;
-        height: 70vw;
-
+        display: none;
     }
     .desc-container{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-    .desc-container img{
-        width: 70vw;
-        height: 70vw;
-
     }
 }
 
 @media only screen and (min-width:700px) and (max-width:800px){
     .description{
-        padding: 10rem;
+        padding: 0rem;
     }
+        
+    .description-text{
+        position: initial;
+        width: 80vw;
+    }
+    .img{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-width:800px) and (max-width:920px){
+ 
     
-    .description-heading{
-        text-align: center;
+    .description{
+        padding: 0rem;
+    }
+        
+    .description-text{
+        position: initial;
+        width: 80vw;
+    }
+    .img{
+        display: none;
+    }
+}
+@media only screen and (min-width:920px) and (max-width:1150px){
+ 
+    
+    .img{
+        height: 35vw;
+        left: 4vw;
+        top: 10rem;
     }
     
     .description-text{
-        position: initial;
-
-    }
-    .text{
-
-    }
-    .img{
-        position: initial;
-        width: 70vw;
-        height: 70vw;
-
-    }
-    .desc-container{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .desc-container img{
-        width: 70vw;
-        height: 70vw;
-
+        left: -2vw;
+        width: 50vw;
+ 
     }
 }
