@@ -2,7 +2,7 @@ import React from 'react'
 import insta from './assets/instagram.svg'
 import twitter from './assets/twitter.svg'
 import linkedin from './assets/linkedin.svg'
-import facebook from './assets/facebook.svg'
+// import facebook from './assets/facebook.svg'
 import "./Footer.css";
 
 const Footer = () => {
@@ -24,12 +24,12 @@ const Footer = () => {
                 Follow us on
             </p>
             <div className="footer-icons">
-                <a href='https://instagram.com/devcomm.nsut?igshid=YmMyMTA2M2Y=' target="_blank">
+                <a href='https://instagram.com/devcomm.nsut?igshid=YmMyMTA2M2Y=' target="_blank" rel="noreferrer">
                   <img  id='foot-icon' src={insta} alt="icon" className='foot_icon'/>
                   </a>
                 {/* <a href='www.goole.com'><img src={facebook} id='foot-icon' className='foot_icon' alt="icon"/></a> */}
-                <a href='www.goole.com'><img src={twitter} id='foot-icon' className='foot_icon' alt="icon" /></a>
-                <a href='https://www.linkedin.com/company/devcommnsut' target="_blank"><img src={linkedin} id='foot-icon' className='foot_icon' alt="icon"/></a>
+                <a href='https://twitter.com/23Avinya' target="_blank" rel="noreferrer"><img src={twitter} id='foot-icon' className='foot_icon' alt="icon" /></a>
+                <a href='https://www.linkedin.com/company/devcommnsut' target="_blank" rel="noreferrer"><img src={linkedin} id='foot-icon' className='foot_icon' alt="icon"/></a>
 
             </div>
         </div>
