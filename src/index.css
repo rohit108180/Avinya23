@@ -260,8 +260,15 @@ color: white;
     perspective: 130px !important;
   }
 }
+
+  .swiper-slide-active{
+    transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1) !important;
+  }
+
+@media(min-width:1024px){
 .swiper-slide-active{
   transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1.1) !important;
+}
 }
 /* gallery styles ends */
 
