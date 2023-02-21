@@ -12,6 +12,10 @@ import img6 from './assets/images/img6.jpg';
 import img7 from './assets/images/img7.jpg';
 import img8 from './assets/images/img8.jpg';
 import img9 from './assets/images/img9.jpg';
+import img10 from './assets/images/img10.jpg';
+import img11 from './assets/images/img11.jpg';
+import img12 from './assets/images/img12.jpg';
+
 // Import Swiper styles
 
 import "swiper/css";
@@ -54,7 +58,11 @@ export default function App() {
 
         
         }}
-        autoplay={true}
+      //   autoplay={{
+      //     delay: 1800,
+      //     disableOnInteraction: false,
+      //  }}
+       
         // pagination={true}
         navigation={true}
         modules={[EffectCoverflow,Autoplay,Navigation]}
@@ -88,19 +96,19 @@ export default function App() {
           <img src={img9} alt="img-9"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img1} alt="img-1" />
+          <img src={img1} alt="img-10" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img2} alt="img-2" />
+          <img src={img2} alt="img-11" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img4} alt="img-3" />
+          <img src={img4} alt="img-12" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img3} alt="img-4" />
+          <img src={img3} alt="img-1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img5} alt="img-5" />
+          <img src={img5} alt="img-2" />
         </SwiperSlide>
       </Swiper>
     </main>
