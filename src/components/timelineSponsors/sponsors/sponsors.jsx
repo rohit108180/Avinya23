@@ -33,7 +33,7 @@ function sponsors() {
   return (
   <>
   <div className="sponsors-contain" style={{color : "white"}}>
-    <div class="sponsors-container">
+    {/* <div class="sponsors-container">
       <Heading name = "EVENT PARTNERS"/>
       <h2 class="sponsors-type">PLATINUM PARTNERS</h2>
       <div className="sponsor-container-div">
@@ -50,7 +50,7 @@ function sponsors() {
       <h2 class="sponsors-type">OTHER SPONSORS</h2>
       <div className="sponsor-container-div">
         {sponsor.others.map((detail, index) => <SponsorsCard key={index} sponsors={detail} />)}
-      </div>
+      </div> */}
       <h2 class="sponsors-type">OUT PAST SPONSORS</h2>
 
       <div className="slider-div">
@@ -150,7 +150,7 @@ function sponsors() {
     </div>
     
     </div>
-    </div>
+    {/* </div> */}
     </>
   )
 }

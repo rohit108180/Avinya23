@@ -119,11 +119,39 @@
     
 }
 
+.timeline-combined{
+    display: block;
+}
+
 .timeline-btn svg{
     width: 1.5rem;
     height: 1.5rem;
 }
 
+@media(max-width:1400px){
+    .timeline-btn{
+        font-size: 26px;
+    }
+    .heading-timeline,.heding-timeline-right{
+        font-size: 30px;
+    }
+    .info-timeline, .info-timeline-right{
+        font-size: 15px;
+    }
+    .timeline-circle{
+        font-size: 85px;
+        margin-right: 15px;
+    }
+     .timeline-circle-right{
+        margin-left: 15px;
+        font-size: 85px;
+    }
+    .timeline-event-left, .timeline-event-right{
+        padding: 25px;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+}
 
 /* sponsors CSS */
 

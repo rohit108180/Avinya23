@@ -125,6 +125,7 @@ function Timelinediv() {
                                 DAY 3
                             </button>
                         </div>
+                        <div className="timeline-combined">
                         <div class='day1info text-center' style={{ "display": day1 }} data-aos="zoom-in" >
                             {/* <h1 class='text-3xl font-bold m-20 block'>Day1 info</h1> */}
                             {timeline[0].map((detail, index) => <Timeline key={index} timeline={index} items={detail} />)}
@@ -136,6 +137,7 @@ function Timelinediv() {
                         <div class='day3info text-center' style={{ "display": day3 }} data-aos="zoom-in">
                             {/* <h1 class='text-3xl font-bold m-20 block'>Day3 info</h1> */}
                             {timeline[2].map((detail, index) => <Timeline key={index} timeline={index} items={detail} />)}
+                        </div>
                         </div>
                     </div>
                 </section>
