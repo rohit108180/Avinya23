@@ -181,19 +181,19 @@ function Timelinediv() {
                         {/* <h1 class="title">EVENT SCHEDULES</h1> */}
                         <Heading name="EVENT SCHEDULES" />
                         <div class="">
-                            <button class="timeline-btn" style={activeButton === "Button 1" ? { backgroundColor: "transparent", color: "#4120a8", borderColor: "#4120a8", borderTopRightRadius: "10px", borderTopLeftRadius: "10px", } : {}} onClick={(e) => { change(e, 1) }}>
+                            <button class="timeline-btn" style={activeButton === "Button 1" ? { backgroundColor: "transparent", background: "linear-gradient(to right,#5e00bf, #FE68F4)","-webkit-text-fill-color":"transparent","-webkit-background-clip":"text", borderColor: "#9322d0", borderTopRightRadius: "10px", borderTopLeftRadius: "10px", } : {}} onClick={(e) => { change(e, 1) }}>
                                 DAY 1
                             </button>
-                            <button class="timeline-btn" style={activeButton === "Button 2" ? { backgroundColor: "transparent", color: "#4120a8", borderColor: "#4120a8", borderTopRightRadius: "10px", borderTopLeftRadius: "10px", } : {}} onClick={(e) => { change(e, 2) }}>
+                            <button class="timeline-btn" style={activeButton === "Button 2" ? { backgroundColor: "transparent", background: "linear-gradient(to right,#5e00bf, #FE68F4)","-webkit-text-fill-color":"transparent","-webkit-background-clip":"text", borderColor: "#9322d0", borderTopRightRadius: "10px", borderTopLeftRadius: "10px", } : {}} onClick={(e) => { change(e, 2) }}>
                                 DAY 2
                             </button>
-                            <button class="timeline-btn" style={activeButton === "Button 3" ? { backgroundColor: "transparent", color: "#4120a8", borderColor: "#4120a8", borderTopRightRadius: "10px", borderTopLeftRadius: "10px", } : {}} onClick={(e) => { change(e, 3) }}>
+                            <button class="timeline-btn" style={activeButton === "Button 3" ? { backgroundColor: "transparent", background: "linear-gradient(to right,#5e00bf, #FE68F4)","-webkit-text-fill-color":"transparent","-webkit-background-clip":"text", borderColor: "#9322d0", borderTopRightRadius: "10px", borderTopLeftRadius: "10px", } : {}} onClick={(e) => { change(e, 3) }}>
                                 DAY 3
                             </button>
-                            <button class="timeline-btn" style={activeButton === "Button 4" ? { backgroundColor: "transparent", color: "#4120a8", borderColor: "#4120a8", borderTopRightRadius: "10px", borderTopLeftRadius: "10px", } : {}} onClick={(e) => { change(e, 4) }}>
+                            <button class="timeline-btn" style={activeButton === "Button 4" ? { backgroundColor: "transparent", background: "linear-gradient(to right,#5e00bf, #FE68F4)","-webkit-text-fill-color":"transparent","-webkit-background-clip":"text", borderColor: "#9322d0", borderTopRightRadius: "10px", borderTopLeftRadius: "10px", } : {}} onClick={(e) => { change(e, 4) }}>
                                 DAY 4
                             </button>
-                            <button class="timeline-btn" style={activeButton === "Button 5" ? { backgroundColor: "transparent", color: "#4120a8", borderColor: "#4120a8", borderTopRightRadius: "10px", borderTopLeftRadius: "10px", } : {}} onClick={(e) => { change(e, 5) }}>
+                            <button class="timeline-btn" style={activeButton === "Button 5" ? { backgroundColor: "transparent", background: "linear-gradient(to right,#5e00bf, #FE68F4)","-webkit-text-fill-color":"transparent","-webkit-background-clip":"text", borderColor: "#9322d0", borderTopRightRadius: "10px", borderTopLeftRadius: "10px", } : {}} onClick={(e) => { change(e, 5) }}>
                                 DAY 5
                             </button>
                         </div>
