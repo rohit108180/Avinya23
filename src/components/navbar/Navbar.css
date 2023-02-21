@@ -19,21 +19,38 @@
 }
 
 .nav-item {
-    margin-left: 5vw;
+    margin: 0 2vw;
+    transition: all 0.2s ease;
+
 }
+
 
 .proj-button {
     background-color: rgb(255, 255, 255, 0.3);
     padding: 5px 40px;
     border-radius: 10px;
-    margin-left: 10vw;
+    margin-left: 8vw;
+    transition: all 0.2s ease;
+
 }
 
-.nav a {
+.nav-a {
     color: white;
     text-decoration: none;
 }
 
+.nav-a:hover{
+    color: rgb(173, 173, 173);
+    transition: all 0.2s ease;
+
+}
+
+.proj-button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: all 0.2s ease;
+
+}
 
 @media only screen and (max-width: 600px){
     .nav{
@@ -46,7 +63,7 @@
 
 @media only screen and (min-width: 600px) and (max-width: 990px) {
     .nav{
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
     .nav-item {
 

@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 /* gallery styles starts */
@@ -9,6 +10,10 @@
   font-weight: 300;
   src: URL('components/assets/Akira Expanded.otf') format('opentype');
 } */
+
+body{
+  background-color: #131413 ;
+}
 
 .swiper {
   width: 100%;

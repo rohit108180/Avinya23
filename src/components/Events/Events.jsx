@@ -6,8 +6,8 @@ import eventst from './Eventdata'
 const Events = () => {
   
   return (
-    <div>
-        <Card details={eventst} ></Card>
+    <div id='events'>
+        <Card details={eventst}></Card>
     </div>
   )
 }

@@ -36,7 +36,7 @@
 
 .img{
     position: relative;
-    height: 30vw;
+    height: 30rem;
     width: auto;
     overflow: hidden;
     top: 10vw;
@@ -47,7 +47,7 @@
     position: relative;
     background-image: linear-gradient(#3b22aa, #64009a);
     height: fit-content;
-    width: 40vw;
+    width: 40rem;
     padding-top: 1rem;
     left: -2vw;
     display: flex;
@@ -166,9 +166,10 @@
  
     
     .img{
-        height: 35vw;
+        width: 40vw;
         left: 4vw;
         top: 10rem;
+        height: auto;
     }
     
     .description-text{
