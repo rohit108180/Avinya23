@@ -51,7 +51,7 @@ function sponsors() {
       <div className="sponsor-container-div">
         {sponsor.others.map((detail, index) => <SponsorsCard key={index} sponsors={detail} />)}
       </div> */}
-      <h2 class="sponsors-type">OUT PAST SPONSORS</h2>
+      <h1 class="sponsors-type">OUT PAST SPONSORS</h1>
 
       <div className="slider-div">
       <div class="slider">

@@ -109,6 +109,7 @@
 }
 
 .timeline-btn{
+    cursor: pointer;
     border: 0px;
     font-size: 30px;
     color: white;
@@ -218,6 +219,12 @@
     display: grid;
     place-items: center;
     overflow: hidden;
+}
+
+@media(max-width:1000px){
+    .slider{
+        width: 100%;
+    }
 }
 
 .slide-track{
