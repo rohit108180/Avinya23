@@ -31,7 +31,7 @@ function sponsors() {
   }
   return (
   <>
-  <div className="sponsors-contain">
+  <div className="sponsors-contain" id='sponsors'>
     <div class="sponsors-container">
       <h1 class="title">
         EVENT PARTNERS

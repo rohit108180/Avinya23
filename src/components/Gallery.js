@@ -24,7 +24,7 @@ import { EffectCoverflow} from "swiper";
 
 export default function App() {
   return (
-    <main className="gallery-section">
+    <main className="gallery-section" id="gallery">
     <div className="gallery-header">
       <h2>Gallery</h2>
     </div>

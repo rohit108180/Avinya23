@@ -36,7 +36,7 @@
 
 .img{
     position: relative;
-    height: 30vw;
+    height: 40vw;
     width: auto;
     overflow: hidden;
     top: 10vw;
@@ -166,9 +166,10 @@
  
     
     .img{
-        height: 35vw;
+        width: 40vw;
         left: 4vw;
         top: 10rem;
+        height: auto;
     }
     
     .description-text{

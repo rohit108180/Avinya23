@@ -27,7 +27,7 @@ export default function Banner() {
     }, []);
 
     return (
-        <div className="banner">
+        <div className="banner" id="banner">
             <div className="container1">
                 <img className="avinya-logo" src={logo} alt="avinya-logo" />
                 <div className="container2">

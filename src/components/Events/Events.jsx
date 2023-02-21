@@ -4,7 +4,7 @@ import eventst from './Eventdata'
 
 const Events = () => {
   return (
-    <div>
+    <div id='events'>
         <Card details={eventst}></Card>
     </div>
   )

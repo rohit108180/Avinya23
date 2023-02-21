@@ -1,29 +1,29 @@
 import React from "react";
 import "./Description.css";
-import devcomm from './1676534542112.jpg'
+import devcomm from "./IMG_5041.jpg";
 
 export default function Description() {
     return (
-        <div className="description">
+        <div className="description" id="description">
             <h1 className="description-heading">DEVCOMM PRESENTS AVINYA'23</h1>
             <div className="desc-container">
-                <img className="img"
-                    src={devcomm}
-                    alt="oooolalala"
-                />
+                <img className="img" src={devcomm} alt="oooolalala" />
                 <div className="description-text">
                     <p className="text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Repellat illo quia laudantium consequuntur inventore ex
-                        sint reiciendis quisquam, vel perspiciatis. Adipisci,
-                        ratione, iste nihil nobis ut consequatur, architecto
-                        veritatis corporis laborum necessitatibus quas omnis
-                        esse aut. Autem cum nostrum corrupti ab asperiores modi,
-                        sapiente pariatur voluptates sed. Quibusdam, nobis.
-                        Distinctio eveniet dignissimos reiciendis mollitia
-                        blanditiis eius.
+                        The time has come; DevComm NSUT is here with the most
+                        awaited event, Avinya, with an expected participation of
+                        more than 10,000 people across 5 days on campus.
+                        Showcasing how tech is transforming business and
+                        society, Avinya drives thought-provoking conversations
+                        around diversity and transformation, providing a
+                        platform for the tech environment to come together to
+                        drive change. The event will be an opportunity for
+                        students to learn, compete and gain exposure, with a
+                        tinge of enjoyment. Avinya would also be hosting
+                        cultural events for students to enjoy and deepen their
+                        bonds. Hosting 10+ events across 5 days.
                     </p>
-                    <p className="events">TechX'23 comprises of n events:</p>
+                    <p className="events">Avinya'23 comprises of events like:</p>
                     <div className="event-names">
                         <span>Innovate NSUT</span>
                         <span>CodeWars</span>
