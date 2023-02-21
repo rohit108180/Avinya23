@@ -58,7 +58,10 @@ export default function App() {
 
         
         }}
-        autoplay={true}
+        autoplay={{
+          
+          disableOnInteraction: false,
+       }}
        
         // pagination={true}
         navigation={true}
