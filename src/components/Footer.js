@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         <div className='footer-right2'>
               <h4>Address</h4>
-              <p>NSUT Dwarka Sector-3</p>
+              <a href='https://goo.gl/maps/RWLtsD8EKUUZNykLA' target="_blank" rel='noreferrer'><p>NSUT Dwarka Sector-3</p></a>
         </div>
         
        
