@@ -5,7 +5,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 const Card = (props) => {
   useEffect(()=>{
-    AOS.init({duration:1000});
+    AOS.init({duration:1500});
 },[]);
   return (
     <>
@@ -16,7 +16,7 @@ const Card = (props) => {
         </div>
     <div className='card_row'>
         {props.details.map( (value,index) => (
-            <div className='card' data-aos="fade-up">
+            <div className='card' data-aos="flip-left" style={{borderRadius:"10px"}}>
                 <img className='card_img' src={value.img} alt=""></img>
                 <div className='card_Rest'>
                   <h2 className='card_title'>{value.Name}</h2>

@@ -11,17 +11,24 @@ import Discord from "./components/Dicord"
 import Sponsors from "./components/timelineSponsors/sponsors/sponsors"
 import Footer from "./components/Footer";
 import Heading from "./components/Heading/Heading";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+
 
 
 function App() {
+    useEffect(()=>{
+        AOS.init({duration:1500});
+    },[]);
     const [loading, setLoading] = useState(false);
 
-    useEffect(() => {
-        setLoading(true);
-        setTimeout(() => {
-            setLoading(false);
-        }, 3500);
-    }, []);
+    // useEffect(() => {
+    //     setLoading(true);
+    //     setTimeout(() => {
+    //         setLoading(false);
+    //     }, 3500);
+    // }, []);
 
 
   return (

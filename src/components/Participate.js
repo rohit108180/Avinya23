@@ -61,10 +61,10 @@ function Participate() {
         AOS.init({duration:1000});
     },[]);
     return (
-        <div className="participate-section">
+        <div className="participate-section" >
             {/* <header>WHY TO PARTICIPATE IN TECHX 2023</header> */}
             <Heading name = "WHY TO PARTICIPATE IN AVINYA"/>
-            <div class="card-wrapper">
+            <div class="card-wrapper" style={{maxWidth:"1024px", margin:"auto"}}>
                 {Cards.map(createCard)}
             </div>
         </div>
