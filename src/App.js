@@ -5,7 +5,6 @@ import Banner from "./components/banner/Banner";
 import Description from "./components/description/Description";
 import Gallery from "./components/Gallery";
 import Participate from "./components/Participate";
-import Events from "./components/Events/Events";
 import Timeline from "./components/timelineSponsors/timeline/timelinediv"
 import Discord from "./components/Dicord"
 import Sponsors from "./components/timelineSponsors/sponsors/sponsors"
@@ -44,7 +43,6 @@ function App() {
                     <Participate />
                     <Gallery/>
                     <Timeline/>
-                    <Events />
                     <Discord />
                     <Sponsors/>
                     <Footer />
