@@ -71,7 +71,7 @@ footer {
 /* Footer Right */
 
 .footer-distributed .footer-right {
-    width: 13%;
+    width: 28%;
     color: white;
     /* margin-left: 2px; */
     text-align: left;
@@ -100,7 +100,7 @@ footer {
 /* Footer Center */
 
 .footer-distributed .footer-center {
-    width: 45%;
+    width: 30%;
     /* text-align: left; */
 }
 
@@ -166,6 +166,7 @@ footer {
     padding-right: 8px;
     fill: white;
 }
+
 
 
 

@@ -24,12 +24,12 @@ const Footer = () => {
                 Follow us on
             </p>
             <div className="footer-icons">
-                <a href='www.google.com'>
+                <a href='https://instagram.com/devcomm.nsut?igshid=YmMyMTA2M2Y=' target="_blank">
                   <img  id='foot-icon' src={insta} alt="icon" className='foot_icon'/>
                   </a>
-                <a href='www.goole.com'><img src={facebook} id='foot-icon' className='foot_icon' alt="icon"/></a>
+                {/* <a href='www.goole.com'><img src={facebook} id='foot-icon' className='foot_icon' alt="icon"/></a> */}
                 <a href='www.goole.com'><img src={twitter} id='foot-icon' className='foot_icon' alt="icon" /></a>
-                <a href='www.google.com'><img src={linkedin} id='foot-icon' className='foot_icon' alt="icon"/></a>
+                <a href='https://www.linkedin.com/company/devcommnsut' target="_blank"><img src={linkedin} id='foot-icon' className='foot_icon' alt="icon"/></a>
 
             </div>
         </div>
@@ -38,7 +38,7 @@ const Footer = () => {
             <div>
               <h4>EMAIL</h4>
                 
-                <p><a href="/">xyz@gmail.com</a></p>
+                <p><a  href='mailto: devcomm.international@nsut.ac.in'>devcomm.international@nsut.ac.in </a></p>
             </div>
             
         </div>
