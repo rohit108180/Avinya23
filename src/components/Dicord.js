@@ -11,7 +11,7 @@ const Discord = () => {
         </div>
         <div>
           <div target="_blank" style={{margin:"auto"}}>
-          <button className="discordButton"><p className='discordButtonText'><a href="https://discord.gg/hhHtDXCBpn" style={{textDecoration:'none', color:'white'}} target="_blank" rel="noreferrer">JOIN</a></p></button>
+          <a href="https://discord.gg/hhHtDXCBpn" style={{textDecoration:'none', color:'white'}} target="_blank" rel="noreferrer"cl><button className="discordButton"><p className='discordButtonText'>JOIN</p></button></a>
           </div>
         </div>
       </div>
