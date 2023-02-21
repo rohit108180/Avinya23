@@ -10,7 +10,7 @@ const Discord = () => {
             <Heading name="JOIN OUR DISCORD SERVER TO STAY UPDATED"/>
         </div>
         <div>
-          <div target="_blank" style={{margin:"auto"}}>
+          <div className="pointer" target="_blank" style={{margin:"auto"}}>
           <a href="https://discord.gg/hhHtDXCBpn" style={{textDecoration:'none', color:'white'}} target="_blank" rel="noreferrer"cl><button className="discordButton"><p className='discordButtonText'>JOIN</p></button></a>
           </div>
         </div>
