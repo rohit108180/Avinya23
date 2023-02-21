@@ -174,7 +174,7 @@ function Timelinediv() {
         }
     }
     return (
-        <div class="timeline-div">
+        <div class="timeline-div" id='schedules'>
             <div className="timeline-div-2">
                 <section>
                     <div class="container">

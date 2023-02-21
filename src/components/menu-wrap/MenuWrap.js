@@ -31,10 +31,10 @@ const MenuWrap = () => {
                 <div className="listWrap">
                     <ul className="listWrapList">
                         <li className='menuWrapContents'><a href="/">HOME</a></li>
-                        <li className='menuWrapContents'><a href="/">EVENTS</a></li>
-                        <li className='menuWrapContents'><a href="/">SCHEDULES</a></li>
-                        <li className='menuWrapContents'><a href="/">GALLERY</a></li>
-                        <li className='menuWrapContents'><a href="/">SPONSORS</a></li>
+                        <li className='menuWrapContents'><a href="#events">EVENTS</a></li>
+                        <li className='menuWrapContents'><a href="#schedules">SCHEDULES</a></li>
+                        <li className='menuWrapContents'><a href="#gallery">GALLERY</a></li>
+                        <li className='menuWrapContents'><a href="#sponsors">SPONSORS</a></li>
                         <li className='menuWrapContents'><a href="/">PROJECTS</a></li>
                     </ul>
                 </div>

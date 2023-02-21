@@ -32,7 +32,7 @@ function sponsors() {
   }
   return (
   <>
-  <div className="sponsors-contain" style={{color : "white"}}>
+  <div className="sponsors-contain" style={{color : "white"}} id="sponsors">
     {/* <div class="sponsors-container">
       <Heading name = "EVENT PARTNERS"/>
       <h2 class="sponsors-type">PLATINUM PARTNERS</h2>
