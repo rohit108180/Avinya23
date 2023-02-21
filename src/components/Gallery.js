@@ -58,10 +58,10 @@ export default function App() {
 
         
         }}
-      //   autoplay={{
-      //     delay: 1800,
-      //     disableOnInteraction: false,
-      //  }}
+        autoplay={{
+          delay: 1800,
+          disableOnInteraction: false,
+       }}
        
         // pagination={true}
         navigation={true}
