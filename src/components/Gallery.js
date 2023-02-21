@@ -38,7 +38,7 @@ export default function App() {
 },[]);
 
   return (
-    <main className="gallery-section" data-aos="fade-left">
+    <main className="gallery-section" data-aos="zoom-in">
     <div className="gallery-header">
       <Heading name = "GALLERY"/>
     </div>
@@ -59,7 +59,7 @@ export default function App() {
         
         }}
         autoplay={{
-          delay: 1800,
+          delay: 2500,
           disableOnInteraction: false,
        }}
        
