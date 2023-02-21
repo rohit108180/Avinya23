@@ -15,9 +15,9 @@
     text-shadow: 1px 1px grey;
 }
 
-.day1info{
+/* .day1info{
     margin: 30px;
-}
+} */
 
 .white-stick-left{
     box-shadow: 0px 0px 40px 10px rgb(216, 47, 216);
@@ -114,7 +114,7 @@
     color: white;
     border-top: transparent solid 5px;
     background-color: transparent;
-    width:30%;
+    width:20%;
     height: 100px;
     
 }
@@ -128,9 +128,10 @@
     height: 1.5rem;
 }
 
-@media(max-width:1400px){
+@media(max-width:1000px){
     .timeline-btn{
-        font-size: 26px;
+        font-size: 20px;
+        height: 60px;
     }
     .heading-timeline,.heding-timeline-right{
         font-size: 30px;
