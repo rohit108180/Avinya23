@@ -36,7 +36,7 @@
 
 .img{
     position: relative;
-    height: 30rem;
+    height: 25rem;
     width: auto;
     overflow: hidden;
     top: 10vw;
@@ -47,7 +47,7 @@
     position: relative;
     background-image: linear-gradient(#3b22aa, #64009a);
     height: fit-content;
-    width: 40rem;
+    width: 35rem;
     padding-top: 1rem;
     left: -2vw;
     display: flex;
