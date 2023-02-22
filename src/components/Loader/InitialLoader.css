@@ -22,7 +22,7 @@
   top:50%;
   justify-content: center;
   left:50%;
-  transform:translate(-50%,-50%) scale(0.6);
+  transform:translate(-50%,-50%) scale(0.8);
   width:500px;
   height:500px;
   background:linear-gradient(233deg, #64009A, #3B22AA, #B3007D);
