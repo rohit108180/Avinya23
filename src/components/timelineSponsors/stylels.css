@@ -221,11 +221,6 @@
     overflow: hidden;
 }
 
-@media(max-width:1000px){
-    .slider{
-        width: 100%;
-    }
-}
 
 .slide-track{
     display: flex;
@@ -270,4 +265,14 @@
 .sponsors-slider-img{
     width: 100%;
     transition: transform 2s;
+}
+
+@media(max-width:1000px){
+    .slider{
+        width: 100%;
+        height: 150px;
+    }
+    .slide{
+        width: 110px;
+    }
 }
