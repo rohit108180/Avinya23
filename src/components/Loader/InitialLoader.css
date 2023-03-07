@@ -2,7 +2,9 @@
   font-family: myFont;
   src: url(Akira-Expanded-Bold.otf);
 }
-
+.rings{
+  width: 100%;
+}
 .ring-container
 {
   margin:0;
