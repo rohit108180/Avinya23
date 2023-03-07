@@ -4,6 +4,8 @@
 }
 .rings{
   width: 100%;
+  background:black;
+  height: 100%;
 }
 .ring-container
 {
