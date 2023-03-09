@@ -15,7 +15,7 @@ export default function Banner() {
             loop: true,
             delay: 250,
         });
-        typewriter.pauseFor(300).start();
+        typewriter.pauseFor(310).start();
         var typewriter2 = new Typewriter(codeRef.current, {
             strings: "6000+",
             cursor: "",
@@ -31,7 +31,7 @@ export default function Banner() {
             <div className="container1">
                 <img className="avinya-logo" src={logo} alt="avinya-logo" />
                 <div className="container2">
-                    <p className="dates">8th - 10th APRIL</p>
+                    <p className="dates">12th - 16th APRIL</p>
                     <div className="button">
                         <RegisterBtn />
                     </div>

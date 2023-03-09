@@ -35,7 +35,7 @@ const MenuWrap = () => {
                         <li className='menuWrapContents'><a href="#schedules">SCHEDULES</a></li>
                         <li className='menuWrapContents'><a href="#gallery">GALLERY</a></li>
                         <li className='menuWrapContents'><a href="#sponsors">SPONSORS</a></li>
-                        <li className='menuWrapContents'><a href="/">PROJECTS</a></li>
+                        <li className='menuWrapContents'><a href="/">OUR TEAM</a></li>
                     </ul>
                 </div>
             </div>
