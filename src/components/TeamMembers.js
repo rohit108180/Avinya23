@@ -26,6 +26,7 @@ import dhruv from '../images/dhruv.png'
 import pulkit from '../images/pulkit.jpeg'
 import { AiFillInstagram } from 'react-icons/ai'
 import { BsLinkedin } from 'react-icons/bs'
+import '../teamPage.css';
 
 function teamMembers() {
   return (
