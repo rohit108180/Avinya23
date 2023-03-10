@@ -26,10 +26,13 @@ import dhruv from '../images/dhruv.png'
 import pulkit from '../images/pulkit.jpeg'
 import { AiFillInstagram } from 'react-icons/ai'
 import { BsLinkedin } from 'react-icons/bs'
+import Navbar from "./navbar/Navbar"
 import '../teamPage.css';
 
 function teamMembers() {
   return (
+    <div>
+    <Navbar/>
     <div className="teamMembers">
       <div className="teamMembersPageContainer">
         <div className="teamIntro">
@@ -442,6 +445,7 @@ function teamMembers() {
 
       </div>
     </div>
+  </div>
   );
 }
 
