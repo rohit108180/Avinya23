@@ -1,6 +1,6 @@
 import React from 'react'
 import MenuWrap from '../menu-wrap/MenuWrap'
-import TeamMembers from '../TeamMembers.js'
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 export default function Navbar() {
@@ -12,6 +12,7 @@ export default function Navbar() {
         <a className='nav-a' href="#schedules"><div className='nav-item'>SCHEDULES</div></a>
         <a className='nav-a' href="#gallery"><div className='nav-item'>GALLERY</div></a>
         <a className='nav-a' href="#sponsors"><div className='nav-item'>SPONSORS</div></a>
+        <Link className='nav-a' to="/team" style={{marginLeft: "1rem"}}>TEAM</Link>
         <a className='nav-a' href="/"><div className='nav-item proj-button'>PROJECTS</div></a>
     </nav>
     <nav className="nav-2">
@@ -19,3 +20,4 @@ export default function Navbar() {
     </>
   )
 }
+
