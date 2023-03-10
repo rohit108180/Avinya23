@@ -297,7 +297,7 @@ function teamMembers() {
               </div>
             </div>
             <div className="teamMemberCard">
-              <img className="teamMemberImage" src={hmvarshney} alt="Harshit"></img>
+              <img className="teamMemberImage" src={hmvarshney} alt="HM Varshney"></img>
               <div className="teamMemberName">
                 <p className="firstName">HM</p>
                 <p className="lastName">Varshney</p>
