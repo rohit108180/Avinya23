@@ -5,12 +5,14 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .teamIntro {
     font-family: 'Akira Expanded', sans-serif;
     color: #FBFBFB;
     font-size: 1.5rem;
+    margin-top: 3rem;
 }
 
 .teamPosition {
