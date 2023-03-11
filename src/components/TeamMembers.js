@@ -23,7 +23,7 @@ import aditya from '../images/Aditya Bhalla.jpg'
 import atharav from '../images/Atharav.jpg'
 import james from '../images/JAMES.jpeg'
 import utkarsh from '../images/Utkarsh.jpeg'
-import dhruv from '../images/dhruv.png'
+import dhruv from '../images/Dhruv.jpg'
 import pulkit from '../images/pulkit.jpeg'
 import { AiFillInstagram } from 'react-icons/ai'
 import { BsLinkedin } from 'react-icons/bs'
@@ -419,8 +419,8 @@ function teamMembers() {
             <div className="teamMemberCard">
               <img className="teamMemberImage" src={dhruv} alt="Dhruv"></img>
               <div className="teamMemberName">
-                <p className="firstName"></p>
-                <p className="lastName">Dhruv</p>
+                <p className="firstName">Dhruv</p>
+                <p className="lastName">Deora</p>
               </div>
               <div className="teamMemberSocialMedia">
                 <a className="teamMemberLink" href="/"><AiFillInstagram className="icons" /></a>
