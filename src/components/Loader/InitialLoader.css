@@ -3,6 +3,9 @@
   src: url(Akira-Expanded-Bold.otf);
 }
 .rings{
+  position: fixed;
+  overflow-y: hidden;
+  overflow-x: hidden;
   justify-content: center;
   text-align: center;
   width: 100%;
@@ -106,20 +109,13 @@ video{
 
   }
 } */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .rings{
     height: 100vh;
     overflow-y: hidden;
     text-align: center;
   }
-  /* video{
-    height: 600px;
-  } */
-  /* .vid{
-    height: 100vh;
-    overflow-y: hidden;
-  } */
-}
+} */
 
 
 
