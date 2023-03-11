@@ -1,30 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 function Card(props) {
-    const [bgcolor, changeColor] = useState(props.bgcolor);
-    const [hcolor, changehColor] = useState("#FBFBFB");
-    const [pcolor, changepColor] = useState("#FBFBFB");
-
-    /* changing background and font colors on mouse over */
-    function change1() {
-        changeColor("#FBFBFB");
-        changehColor(props.bgcolor);
-        changepColor("#000000");
-    }
-
-    /* changing background and font colors on mouse out */
-    function change2() {
-        changeColor(props.bgcolor);
-        changehColor("#FBFBFB");
-        changepColor("#FBFBFB");
-    }
-
     return (
-        <div className="participate-card" style={{ backgroundColor: bgcolor }} onMouseOver={change1} onMouseOut={change2} data-aos="fade-right">
-            <h2 style={{ color: hcolor }} onMouseOver={change1} onMouseOut={change2}>{props.heading}</h2>
-            <p style={{ color: pcolor }} onMouseOver={change1} onMouseOut={change2}>{props.content}</p>
+        <div className="participate-card" id={props.id} data-aos="fade-right">
+            <h2>{props.heading}</h2>
+            <p>{props.content}</p>
         </div>
     )
 }

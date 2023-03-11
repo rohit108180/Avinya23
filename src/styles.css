@@ -41,6 +41,39 @@ body {
   word-spacing: 1.5px;
 }
 
+#participate1,#participate3,#participate5{
+  background-color: #330c5c;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+#participate2,#participate4,#participate6{
+  background-color: #5a0c4d;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+#participate1 h2,#participate2 h2,#participate3 h2,#participate4 h2,#participate5 h2,#participate6 h2{
+  color: white;
+  transition: color 0.4s;
+}
+
+#participate1:hover,#participate3:hover,#participate5:hover{
+  background-color: white;
+  color: black;
+}
+
+#participate1:hover h2,#participate3:hover h2,#participate5:hover h2{
+  color: #330c5c;
+}
+
+#participate2:hover,#participate4:hover,#participate6:hover{
+  background-color: white;
+  color: black;
+}
+
+#participate2:hover h2,#participate4:hover h2,#participate6:hover h2{
+  color: #5a0c4d;
+}
+
 .participate-card h2 {
   font-size: 28px;
   margin-bottom: 12px;
