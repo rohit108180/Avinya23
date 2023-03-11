@@ -8,18 +8,25 @@
     text-align: center;
 }
 
+@font-face {
+    font-family: myFont;
+    src: url(components/Heading/Akira-Expanded-Bold.otf);
+  }
+  
 .teamIntro {
-    font-family: 'Akira Expanded', sans-serif;
-    color: #FBFBFB;
-    font-size: 1.5rem;
+    font-family:myFont;
     margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #FBFBFB;
 }
 
 .teamPosition {
     margin-top: 3rem;
     font-family: 'Akira Expanded', sans-serif;
     color: #FBFBFB;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .teamMemberCardContainer {
@@ -32,7 +39,7 @@
 }
 
 .teamMemberCard {
-    margin: 2rem;
+    margin: 3rem;
     border-style: solid;
     border-width: 0.3rem;
     border-color: #FBFBFB;
@@ -40,6 +47,7 @@
     width: 20rem;
     background: rgb(77, 18, 98);
     background: linear-gradient(45deg, rgb(68, 19, 89) 0%, rgb(104, 7, 67) 45%, rgb(104, 7, 67) 55%, rgba(68, 19, 89, 1) 100%);
+    cursor: pointer;
 }
 
 .teamMemberImage {
@@ -59,6 +67,7 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    font-weight: bold;
 }
 
 .firstName,
