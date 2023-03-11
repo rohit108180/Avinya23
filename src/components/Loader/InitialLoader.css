@@ -4,10 +4,17 @@
 }
 .rings{
   justify-content: center;
+  text-align: center;
   width: 100%;
   background:black;
   height: 100vh;
   overflow-y: hidden;
+}
+video{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
 }
 .ring-container
 {
@@ -87,7 +94,7 @@
   }
 }
 
-@media screen and (max-width:780px){
+/* @media screen and (max-width:780px){
   .ring h1{
     margin-top: 75px;
   }
@@ -98,12 +105,16 @@
     line-height:60px;
 
   }
-}
+} */
 @media only screen and (max-width: 600px) {
   .rings{
     height: 100vh;
     overflow-y: hidden;
+    text-align: center;
   }
+  /* video{
+    height: 600px;
+  } */
   /* .vid{
     height: 100vh;
     overflow-y: hidden;
