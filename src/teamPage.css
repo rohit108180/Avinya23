@@ -1,0 +1,113 @@
+.teamMembersPageContainer {
+    margin: 7rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.teamIntro {
+    font-family: 'Akira Expanded', sans-serif;
+    color: #FBFBFB;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.teamPosition {
+    margin-top: 3rem;
+    font-family: 'Akira Expanded', sans-serif;
+    color: #FBFBFB;
+    font-size: 2rem;
+}
+
+.teamMemberCardContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.teamMemberCard {
+    margin: 2rem;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #FBFBFB;
+    height: 20rem;
+    width: 20rem;
+    background: rgb(77, 18, 98);
+    background: linear-gradient(45deg, rgb(68, 19, 89) 0%, rgb(104, 7, 67) 45%, rgb(104, 7, 67) 55%, rgba(68, 19, 89, 1) 100%);
+}
+
+.teamMemberImage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.teamMemberName {
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.firstName,
+.lastName {
+    font-family: 'Akira Expanded', sans-serif;
+    color: #FBFBFB;
+}
+
+.firstName {
+    font-size: 1.25rem;
+}
+
+.lastName {
+    font-size: 2rem;
+}
+
+.teamMemberSocialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.teamMemberLink {
+    font-size: 2rem;
+    color: #FBFBFB;
+}
+
+.icons {
+    margin: 0rem 1rem;
+}
+
+.teamMemberCard:hover .teamMemberImage {
+    opacity: 0.1;
+}
+
+.teamMemberCard:hover .teamMemberName {
+    opacity: 1;
+}
+
+.teamMemberCard:hover .teamMemberSocialMedia {
+    opacity: 1;
+}
+

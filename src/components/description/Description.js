@@ -1,11 +1,13 @@
 import React from "react";
+import Heading from "../Heading/Heading";
 import "./Description.css";
 import devcomm from "./IMG_5041.jpg";
 
 export default function Description() {
     return (
-        <div className="description" id="description">
-            <h1 className="description-heading">DEVCOMM PRESENTS AVINYA'23</h1>
+        <div className="description" id= "description">
+            {/* <h1 className="description-heading">DEVCOMM PRESENTS AVINYA'23</h1> */}
+            <Heading name = "DEVCOMM PRESENTS AVINYA'23"/>
             <div className="desc-container">
                 <img className="img" src={devcomm} alt="oooolalala" />
                 <div className="description-text">
@@ -23,12 +25,7 @@ export default function Description() {
                         cultural events for students to enjoy and deepen their
                         bonds. Hosting 10+ events across 5 days.
                     </p>
-                    <p className="events">Avinya'23 comprises of events like:</p>
-                    <div className="event-names">
-                        <span>Innovate NSUT</span>
-                        <span>CodeWars</span>
-                        <span>PsychoTech</span>
-                    </div>
+                  
                 </div>
             </div>
         </div>

@@ -1,5 +1,8 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Card from "./Card";
+import Heading from "./Heading/Heading";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 // Cards description 
 
@@ -54,10 +57,14 @@ function createCard(card) {
 }
 
 function Participate() {
+    useEffect(()=>{
+        AOS.init({duration:1000});
+    },[]);
     return (
-        <div className="participate-section">
-            <header>WHY TO PARTICIPATE IN TECHX 2023</header>
-            <div class="card-wrapper">
+        <div className="participate-section" >
+            {/* <header>WHY TO PARTICIPATE IN TECHX 2023</header> */}
+            <Heading name = "WHY TO PARTICIPATE IN AVINYA"/>
+            <div class="card-wrapper" style={{maxWidth:"1024px", margin:"auto"}}>
                 {Cards.map(createCard)}
             </div>
         </div>

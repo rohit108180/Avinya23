@@ -3,12 +3,12 @@ import React from 'react'
 function Timelinecomp({ items, timeline }) {
     const timelinele = (timeline % 2 === 0) ?
         (<div class="timeline-event-left">
-            <div className="timeline-circle"> {items.id} </div>
+            <div className="timeline-circle"> <p class="timeline-circle-p">{items.id}</p> </div>
             <h1 class="heading-timeline">{items.name}</h1>
             <p class="info-timeline">{items.date}</p>
         </div>) :
         (<div class="timeline-event-right">
-            <div className="timeline-circle-right"> {items.id} </div>
+            <div className="timeline-circle-right"> <p class="timeline-circle-p">{items.id}</p> </div>
             <h1 class="heading-timeline-right">{items.name}</h1>
             <p class="info-timeline-right">{items.date}</p>
         </div>)

@@ -2,6 +2,7 @@
     width: 100%;
     height: fit-content;
     position: relative;
+
     background-image: url("./banner-img.png");
     background-repeat: no-repeat;
     background-size: cover;
