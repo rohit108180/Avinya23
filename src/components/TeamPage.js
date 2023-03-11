@@ -18,13 +18,13 @@ function TeamPage() {
 
   return (
 
-        <>
+        <div style={{minWidth:"400px"}}>
        
                     <Navbar />
                     <TeamMembers />
                     <Footer />
             
-        </>
+        </div>
     );
 }
 
