@@ -25,12 +25,7 @@ export default function Description() {
                         cultural events for students to enjoy and deepen their
                         bonds. Hosting 10+ events across 5 days.
                     </p>
-                    <p className="events">Avinya'23 comprises of events like:</p>
-                    <div className="event-names">
-                        <span>Innovate NSUT</span>
-                        <span>CodeWars</span>
-                        <span>PsychoTech</span>
-                    </div>
+                  
                 </div>
             </div>
         </div>

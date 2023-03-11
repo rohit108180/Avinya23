@@ -13,6 +13,7 @@
 
 body{
   background-color: #131413 ;
+  overflow-x: hidden;
 }
 
 .swiper {

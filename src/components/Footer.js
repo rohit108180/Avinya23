@@ -15,7 +15,7 @@ const Footer = () => {
             <h3 >AVINYA</h3>
 
             <p className="footer-tag">
-                AVINYA TAG LINE AVINYA TAG LINE
+                Innovation meets Technology
             </p>
          </div>
 

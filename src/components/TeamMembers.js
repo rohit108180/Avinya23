@@ -241,8 +241,8 @@ function teamMembers() {
                 <p className="lastName">Sharma</p>
               </div>
               <div className="teamMemberSocialMedia">
-                <a className="teamMemberLink" href="/"><AiFillInstagram className="icons" /></a>
-                <a className="teamMemberLink" href="/"><BsLinkedin className="icons" /></a>
+                <a className="teamMemberLink" href="https://www.instagram.com/int_rohit/"><AiFillInstagram className="icons" /></a>
+                <a className="teamMemberLink" href="https://www.linkedin.com/in/rohit-sharma-87140a208/"><BsLinkedin className="icons" /></a>
               </div>
             </div>
             <div className="teamMemberCard">
@@ -289,7 +289,7 @@ function teamMembers() {
               <img className="teamMemberImage" src={naman} alt="Naman"></img>
               <div className="teamMemberName">
                 <p className="firstName">Naman</p>
-                <p className="lastName">lastname</p>
+                <p className="lastName">Aggarwal</p>
               </div>
               <div className="teamMemberSocialMedia">
                 <a className="teamMemberLink" href="/"><AiFillInstagram className="icons" /></a>

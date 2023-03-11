@@ -11,28 +11,19 @@ function TeamPage() {
     useEffect(()=>{
         AOS.init({duration:1500});
     },[]);
-    const [loading, setLoading] = useState(false);
 
-    useEffect(() => {
-        setLoading(true);
-        setTimeout(() => {
-            setLoading(false);
-        }, 4800);
-    }, []);
+
+ 
 
 
   return (
 
         <>
-            {loading ? (
-                <InitialLoader />
-            ) : (
-                <>
+       
                     <Navbar />
                     <TeamMembers />
                     <Footer />
-                </>
-            )}
+            
         </>
     );
 }

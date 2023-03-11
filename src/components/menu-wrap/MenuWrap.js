@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './MenuWrap.css'
 // import { Link } from "react-router-dom";
 // import { useSelector } from 'react-redux'
@@ -35,7 +36,8 @@ const MenuWrap = () => {
                         <li className='menuWrapContents'><a href="#schedules">SCHEDULES</a></li>
                         <li className='menuWrapContents'><a href="#gallery">GALLERY</a></li>
                         <li className='menuWrapContents'><a href="#sponsors">SPONSORS</a></li>
-                        <li className='menuWrapContents'><a href="/">PROJECTS</a></li>
+                        <li className='menuWrapContents'><Link to ="/team">OUR TEAM</Link> </li>
+                        {/* <li className='menuWrapContents'><a href="/">PROJECTS</a></li> */}
                     </ul>
                 </div>
             </div>
