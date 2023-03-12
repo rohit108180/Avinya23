@@ -76,7 +76,7 @@ function sponsors() {
       <div className="sponsor-container-div">
         {sponsor.others.map((detail, index) => <SponsorsCard key={index} sponsors={detail} />)}
       </div> */}
-      <h1 class="sponsors-type">OUR PAST SPONSORS</h1>
+      <Heading name="OUR PAST SPONSORS" />
 
       <div className="slider-div">
       <div class="slider">
