@@ -11,7 +11,7 @@ export default function Description() {
             <div className="desc-container">
                 <img className="img" src={devcomm} alt="devcomm" />
                 <div className="description-text">
-                    <p className="text">
+                    <p className="desc-text">
                         The time has come; DevComm NSUT is here with the most
                         awaited event, Avinya, with an expected participation of
                         more than 10,000 people across 5 days on campus.

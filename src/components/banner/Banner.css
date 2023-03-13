@@ -2,10 +2,11 @@
     width: 100%;
     height: fit-content;
     position: relative;
-    background-image: url("./banner-img2.jpg");
+    /* background-image: url("./banner-img2.jpg"); */
+    background-image: url("./banner-img6.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top right;
     top: 0;
     left: 0;
     right: 0;
@@ -31,7 +32,7 @@
     align-items: center;
     justify-content: center;
     align-self: flex-start;
-    padding-left: 7vw;
+    padding-left: 6vw;
 }
 
 .avinya-logo {
@@ -112,6 +113,34 @@
     font-size: 3vw;
 }
 
+.up-a {
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 100000000;
+}
+.up-item {
+    margin: 0 2vw;
+    transition: all 0.2s ease;
+    height: 30px;
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+.up-item:hover{
+    /* color: rgb(173, 173, 173); */
+    transition: all 0.2s ease;
+    box-shadow: 1px 1px 30px 1px rgba(255, 255, 255, 0.516);
+
+
+}
+
+
 @media only screen and (max-width: 600px) {
     .avinya-logo{
         align-self: center;
@@ -170,8 +199,39 @@
 }
 
 
+
 @media only screen and (min-width: 600px) and (max-width: 990px){
     .banner{
         padding: 5vw 0;
+    }
+    .container2{
+        padding-left: 4vw;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 800px){
+    .container2{
+        padding-left: 3vw;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 750px){
+    .container2{
+        padding-left: 2vw;
+    }
+}
+@media only screen and (min-width: 650px) and (max-width: 700px){
+    .container2{
+        padding-left: 1vw;
+    }
+    .container1{
+        padding: 7vw 7vw;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 650px){
+    .container2{
+        padding-left: 0.5vw;
+    }
+    .container1{
+        padding: 7vw 7vw;
     }
 }
