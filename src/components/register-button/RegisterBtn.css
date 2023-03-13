@@ -4,87 +4,27 @@
         border: 3px solid #ffffff;
     }
 
-    30% {
-        background: rgba(255, 255, 255, 0.2);
-        border: 3px solid #ffffff;
-    }
-
-    65% {
-        background: #fbfbfb;
-    }
-
-    75% {
-        background: #fbfbfb;
-    }
-
-    80% {
-        background: #fbfbfb;
-    }
+    
 
     100% {
         background: #fbfbfb;
     }
+
+   
 }
 
 @keyframes colorPalette {
     0% {
         color: #fbfbfb;
-        /* background: linear-gradient(to right,#fbfbfb, #fbfbfb,#fbfbfb,#fbfbfb); */
-        /* -webkit-text-fill-color: transparent; */
-        /* -webkit-background-clip: text; */
     }
 
-    30% {
-        color: #fbfbfb;
-    }
-
-    70% {
-        background: linear-gradient(
-            to right,
-            #f32170,
-            #ff6b08,
-            #cf23cf,
-            #eedd44
-        );
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-    }
-
-    80% {
-        background: linear-gradient(
-            to right,
-            #f32170,
-            #ff6b08,
-            #cf23cf,
-            #eedd44
-        );
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-    }
+ 
 
     90% {
-        background: linear-gradient(
-            to right,
-            #f32170,
-            #ff6b08,
-            #cf23cf,
-            #eedd44
-        );
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
+        color:"black";
     }
 
-    100% {
-        background: linear-gradient(
-            to right,
-            #f32170,
-            #ff6b08,
-            #cf23cf,
-            #eedd44
-        );
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-    }
+   
 }
 
 .register {
