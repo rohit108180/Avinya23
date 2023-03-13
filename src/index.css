@@ -292,13 +292,33 @@ color: white;
   width: 35vw;
   margin: 4rem;
   background: hsla(312, 44%, 78%, 1);
-  background: linear-gradient(0deg, hsla(312, 44%, 78%, 1) 0%, hsla(306, 58%, 69%, 1) 13%, hsla(295, 58%, 53%, 1) 46%, hsla(246, 36%, 47%, 1) 75%, hsla(255, 71%, 22%, 1) 100%);
+
+  background-size: 300% 100%;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  /* background: linear-gradient(0deg, hsla(312, 44%, 78%, 1) 0%, hsla(306, 58%, 69%, 1) 13%, hsla(295, 58%, 53%, 1) 46%, hsla(246, 36%, 47%, 1) 75%, hsla(255, 71%, 22%, 1) 100%);
   background: -moz-linear-gradient(0deg, hsla(312, 44%, 78%, 1) 0%, hsla(306, 58%, 69%, 1) 13%, hsla(295, 58%, 53%, 1) 46%, hsla(246, 36%, 47%, 1) 75%, hsla(255, 71%, 22%, 1) 100%);
   background: -webkit-linear-gradient(0deg, hsla(312, 44%, 78%, 1) 0%, hsla(306, 58%, 69%, 1) 13%, hsla(295, 58%, 53%, 1) 46%, hsla(246, 36%, 47%, 1) 75%, hsla(255, 71%, 22%, 1) 100%);
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DFADD5", endColorstr="#DE83D5", GradientType=1 );
-  border-width: 0.3rem;
-  border-color: #FBFBFB;
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DFADD5", endColorstr="#DE83D5", GradientType=1 ); */
+
+  background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+
+  border:none;
+  
+
 }
+
+.discordButton:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
 
 .discordButtonText {
   font-family: 'Akira-expanded';

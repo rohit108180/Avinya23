@@ -29,6 +29,7 @@ import { AiFillInstagram } from 'react-icons/ai'
 import { BsLinkedin } from 'react-icons/bs'
 import Navbar from "./navbar/Navbar"
 import '../teamPage.css';
+import Heading from './Heading/Heading'
 
 function teamMembers() {
   return (
@@ -37,7 +38,7 @@ function teamMembers() {
     <div className="teamMembers">
       <div className="teamMembersPageContainer">
         <div className="teamIntro">
-          <h1>MEET THE TEAM</h1>
+         <Heading name="MEET THE TEAM"/>
         </div>
 
 

@@ -38,7 +38,7 @@ const Footer = () => {
             <div>
               <h4>EMAIL</h4>
                 
-                <p><a  href='mailto: devcomm.international@nsut.ac.in'>devcomm.international@nsut.ac.in </a></p>
+                <p><a  href='mailto: nsut.devcomm@gmail.com'>nsut.devcomm@gmail.com</a></p>
             </div>
             
         </div>

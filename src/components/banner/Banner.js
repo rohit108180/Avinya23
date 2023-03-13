@@ -9,7 +9,7 @@ export default function Banner() {
     const codeRef = useRef(null);
     useEffect(() => {
         var typewriter = new Typewriter(partRef.current, {
-            strings: "200+ ",
+            strings: "2000+ ",
             cursor: "",
             autoStart: true,
             loop: true,

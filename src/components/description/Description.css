@@ -9,14 +9,15 @@
     align-items: center;
     justify-content: center;
     height: fit-content;
-    margin-bottom: 17vw;
-    margin-top: 3vw;
+    margin-bottom: 15rem;
+    margin-top: -5rem;
 }
 
 .desc-container{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: fit-content;
 }
 
 
@@ -54,7 +55,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    box-shadow: 0 8px 32px 3px #64009a;
+    box-shadow: 0 8px 20px 3px #64009a;
 }
 
 .text{
