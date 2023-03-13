@@ -29,6 +29,7 @@
     border-radius: 20px;
     transition: all 0.5s ease;
     background-color: #fbfbfb;
+    box-shadow: 0 0 3px 0px white;
 }
 
 .menuIcon .cross {
@@ -69,19 +70,23 @@
     gap: 15px;
 }
 
-.menuWrap .listWrap li {
+.menuWrapContents {
     white-space: nowrap;
     /* background-color: #64009a; */
     box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
-    background: rgba(194, 194, 194, 0.5);
-    backdrop-filter: blur(8px);
+    background: rgba(194, 194, 194, 0.4);
+    backdrop-filter: blur(10px);
     /* border-radius: 20px; */
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    /* border: 1px solid rgba(255, 255, 255, 0.18); */
     /* box-shadow: 0 1px 15px #fbfbfb4e; */
     text-align: left;
     width: fit-content;
     padding: 8px 15px;
     border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.menuWrapContents:hover{
+    background: rgba(255, 255, 255, 0.5);
     transition: all 0.5s ease;
 }
 

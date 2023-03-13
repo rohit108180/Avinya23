@@ -11,7 +11,7 @@
     right: 0;
     font-family: "Baloo 2", cursive;
     z-index: 100;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 .nav-2{
@@ -26,9 +26,9 @@
 
 
 .proj-button {
-    background-color: rgb(255, 255, 255, 0.3);
-    padding: 5px 40px;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.112);
+    padding: 5px 30px;
+    /* border-radius: 10px; */
     margin-left: 8vw;
     transition: all 0.2s ease;
 
@@ -40,8 +40,10 @@
 }
 
 .nav-a:hover{
-    color: rgb(173, 173, 173);
+    /* color: rgb(173, 173, 173); */
     transition: all 0.2s ease;
+    text-shadow: 1px 1px 10px white;
+
 
 }
 
@@ -49,7 +51,7 @@
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
     transition: all 0.2s ease;
-
+    text-shadow: none;
 }
 
 @media only screen and (max-width: 600px){
