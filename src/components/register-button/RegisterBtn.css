@@ -4,13 +4,13 @@
         border: 3px solid #ffffff;
     }
 
-    
+
 
     100% {
         background: #fbfbfb;
     }
 
-   
+
 }
 
 @keyframes colorPalette {
@@ -18,13 +18,13 @@
         color: #fbfbfb;
     }
 
- 
 
-    90% {
-        color:"black";
+
+    100% {
+        color: #171616;
     }
 
-   
+
 }
 
 .register {
@@ -32,7 +32,7 @@
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate; */
-    animation: backgroundColorPalette 5s ease-in-out 5s infinite alternate;
+    animation: backgroundColorPalette 3.5s ease-in-out 3.5s infinite alternate;
     height: 4vw;
     width: 13vw;
     display: inline-block;
@@ -47,14 +47,14 @@
 }
 
 .b1 {
-    animation: colorPalette 5s ease-in-out 5s infinite alternate;
+    animation: colorPalette 3.5s ease-in-out 3.5s infinite alternate;
     /* animation-name: colorPalette;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate; */
-    font-family: Rubik;
-    font-size: 1.3vw;
-    font-weight: 400;
+    font-family: "Baloo 2", cursive;
+    font-size: 1.5vw;
+    font-weight: 500;
     line-height: 21px;
     letter-spacing: 0.04em;
 }
@@ -64,6 +64,7 @@
         height: 6vw;
         width: 20vw;
     }
+
     .b1 {
         font-size: 2vw;
     }
