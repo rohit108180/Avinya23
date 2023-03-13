@@ -1,7 +1,7 @@
 .description{
     padding: 0;
     width: 100%;
-    padding-top: 5rem;
+    /* padding-top: 1rem; */
     color: white;
     font-family: "Baloo 2", cursive;
     display: flex;
@@ -55,11 +55,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    box-shadow: 0 8px 20px 3px #64009a;
+    box-shadow: 0 5px 20px 2px #64009a;
 }
 
 .text{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: 2rem;
     text-align: center;
     line-height: 1.5rem;

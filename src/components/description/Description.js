@@ -9,7 +9,7 @@ export default function Description() {
             {/* <h1 className="description-heading">DEVCOMM PRESENTS AVINYA'23</h1> */}
             <Heading name = "DEVCOMM PRESENTS AVINYA'23"/>
             <div className="desc-container">
-                <img className="img" src={devcomm} alt="oooolalala" />
+                <img className="img" src={devcomm} alt="devcomm" />
                 <div className="description-text">
                     <p className="text">
                         The time has come; DevComm NSUT is here with the most
