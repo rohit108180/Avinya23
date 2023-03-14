@@ -32,12 +32,11 @@ const MenuWrap = () => {
                 <div className="listWrap">
                     <ul className="listWrapList">
                         <li className='menuWrapContents'><a href="/">HOME</a></li>
-                        <li className='menuWrapContents'><a href="#events">EVENTS</a></li>
                         <li className='menuWrapContents'><a href="#schedules">SCHEDULES</a></li>
                         <li className='menuWrapContents'><a href="#gallery">GALLERY</a></li>
+                        <li className='menuWrapContents'><a href="#discord">DISCORD</a></li>
                         <li className='menuWrapContents'><a href="#sponsors">SPONSORS</a></li>
                         <li className='menuWrapContents'><Link to ="/team">OUR TEAM</Link> </li>
-                        {/* <li className='menuWrapContents'><a href="/">PROJECTS</a></li> */}
                     </ul>
                 </div>
             </div>

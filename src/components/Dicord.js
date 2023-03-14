@@ -3,7 +3,7 @@ import Heading from './Heading/Heading';
 
 const Discord = () => {
    return (
-      <div className="discordContainer">
+      <div className="discordContainer" id='discord'>
         <div>
             {/* <p className="discordText">JOIN OUR DISCORD SERVER</p>
             <p className="discordText">TO STAY UPDATED</p> */}

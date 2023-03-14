@@ -3,7 +3,7 @@ import "./Banner.css";
 import Typewriter from "typewriter-effect/dist/core";
 import logo from "./bgless_white_large.png";
 import RegisterBtn from "../register-button/RegisterBtn";
-import { VscChromeClose } from "react-icons/vsc";
+import { VscChromeClose, VscTriangleUp } from "react-icons/vsc";
 
 export default function Banner() {
     const partRef = useRef(null);
@@ -63,6 +63,9 @@ export default function Banner() {
                     </p>
                 </div>
             </div>
+            <a className="up-a" href="/#home"><VscTriangleUp className="up-item"/></a>
+            
+            
         </div>
     );
 }

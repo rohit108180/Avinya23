@@ -1,12 +1,16 @@
-import React from 'react';
-import './RegisterBtn.css';
+import React from "react";
+import "./RegisterBtn.css";
 
 const RegisterBtn = () => {
     return (
-        <button className='register'>
-            <h1 className='b1'>REGISTER</h1>
-        </button>
-    )
-}
+        <div class="center-center">
+            <a class="btn-glitch-fill">
+                <span class="text">// REGISTER</span>
+                <span class="text-decoration">_</span>
+                <span class="decoration">&rArr;</span>
+            </a>
+        </div>
+    );
+};
 
 export default RegisterBtn;
