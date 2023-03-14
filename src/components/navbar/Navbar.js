@@ -6,7 +6,7 @@ import './Navbar.css'
 export default function Navbar() {
   return (
     <>
-    <nav className='nav' id='home'>
+    <nav className='nav'>
         <a className='nav-a' href="/"><div className='nav-item'>HOME</div></a>
         <a className='nav-a' href="/#schedules"><div className='nav-item'>SCHEDULES</div></a>
         <a className='nav-a' href="/#gallery"><div className='nav-item'>GALLERY</div></a>
