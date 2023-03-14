@@ -36,7 +36,7 @@ export default function Banner() {
     }, []);
 
     return (
-        <div className="banner" id="banner">
+        <div className="banner" id="home">
             <div className="popup" style={{ visibility: pop }}>
                         <VscChromeClose onClick={visi} className="pop-cross"/>
                         <p>
