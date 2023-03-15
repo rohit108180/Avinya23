@@ -1,7 +1,7 @@
 import React from 'react'
 import './InitialLoader.css'
 import img from "../assets/bgless_white_large.png"
-import vid from "../assets/videos/Hello (1).mov"
+import vid from "../assets/videos/WhatsApp Video 2023-03-15 at 9.55.22 PM.mp4"
 
 function InitialLoader() {
   return (
