@@ -43,7 +43,7 @@ function teamMembers() {
 
 
         <div className="teamPosition">
-          <p>Convener</p>
+          <p>Chief Convener</p>
           <div className="teamMemberCardContainer">
             <div className="teamMemberCard">
               <img className="teamMemberImage" src={madhur} alt="Madhur"></img>
@@ -102,6 +102,79 @@ function teamMembers() {
                 <a className="teamMemberLink" href="/"><AiFillInstagram className="icons" /></a>
 
                 <a className="teamMemberLink" href="/"><BsLinkedin className="icons" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="teamPosition">
+          <p>Mentor</p>
+          <div className="teamMemberCardContainer">
+            <div className="teamMemberCard">
+              <img className="teamMemberImage" src={kapil} alt="Kapil"></img>
+              <div className="teamMemberName">
+                <p className="firstName">Kapil</p>
+                <p className="lastName">Aggarwal</p>
+              </div>
+              <div className="teamMemberSocialMedia">
+                <a className="teamMemberLink" href="/"><AiFillInstagram className="icons" /></a>
+                <a className="teamMemberLink" href="/"><BsLinkedin className="icons" /></a>
+              </div>
+            </div>
+            <div className="teamMemberCard">
+              <img className="teamMemberImage" src={naman} alt="Naman"></img>
+              <div className="teamMemberName">
+                <p className="firstName">Naman</p>
+                <p className="lastName">Aggarwal</p>
+              </div>
+              <div className="teamMemberSocialMedia">
+                <a className="teamMemberLink" href="/"><AiFillInstagram className="icons" /></a>
+                <a className="teamMemberLink" href="/"><BsLinkedin className="icons" /></a>
+              </div>
+            </div>
+            <div className="teamMemberCard">
+              <img className="teamMemberImage" src={hmvarshney} alt="HM Varshney"></img>
+              <div className="teamMemberName">
+                <p className="firstName">HM</p>
+                <p className="lastName">Varshney</p>
+              </div>
+              <div className="teamMemberSocialMedia">
+                <a className="teamMemberLink" href="/"><AiFillInstagram className="icons" /></a>
+                <a className="teamMemberLink" href="/"><BsLinkedin className="icons" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="teamPosition">
+          <p>General Secretary</p>
+          <div className="teamMemberCardContainer">
+            <div className="teamMemberCard">
+              <img className="teamMemberImage" src={pushkin} alt="Pushkin"></img>
+              <div className="teamMemberName">
+                <p className="firstName">Pushkin</p>
+                <p className="lastName">Sharma</p>
+              </div>
+              <div className="teamMemberSocialMedia">
+
+                <a className="teamMemberLink" href="https://www.instagram.com/pushkinnsharma/?next=%2F"><AiFillInstagram className="icons" /></a>
+
+                <a className="teamMemberLink" href="https://www.linkedin.com/in/pushkinsharma/"><BsLinkedin className="icons" /></a>
+              </div>
+            </div>
+            <div className="teamMemberCard">
+              <img className="teamMemberImage" src={ishan} alt="Ishan"></img>
+              <div className="teamMemberName">
+                <p className="firstName">Ishan</p>
+                <p className="lastName">Suri</p>
+              </div>
+              <div className="teamMemberSocialMedia">
+
+                <a className="teamMemberLink" href="https://instagram.com/ishansuri19?igshid=YmMyMTA2M2Y="><AiFillInstagram className="icons" /></a>
+
+                <a className="teamMemberLink" href="https://www.linkedin.com/in/ishansuri19"><BsLinkedin className="icons" /></a>
               </div>
             </div>
           </div>
@@ -200,39 +273,6 @@ function teamMembers() {
 
 
         <div className="teamPosition">
-          <p>General Secretary</p>
-          <div className="teamMemberCardContainer">
-            <div className="teamMemberCard">
-              <img className="teamMemberImage" src={pushkin} alt="Pushkin"></img>
-              <div className="teamMemberName">
-                <p className="firstName">Pushkin</p>
-                <p className="lastName">Sharma</p>
-              </div>
-              <div className="teamMemberSocialMedia">
-
-                <a className="teamMemberLink" href="https://www.instagram.com/pushkinnsharma/?next=%2F"><AiFillInstagram className="icons" /></a>
-
-                <a className="teamMemberLink" href="https://www.linkedin.com/in/pushkinsharma/"><BsLinkedin className="icons" /></a>
-              </div>
-            </div>
-            <div className="teamMemberCard">
-              <img className="teamMemberImage" src={ishan} alt="Ishan"></img>
-              <div className="teamMemberName">
-                <p className="firstName">Ishan</p>
-                <p className="lastName">Suri</p>
-              </div>
-              <div className="teamMemberSocialMedia">
-
-                <a className="teamMemberLink" href="https://instagram.com/ishansuri19?igshid=YmMyMTA2M2Y="><AiFillInstagram className="icons" /></a>
-
-                <a className="teamMemberLink" href="https://www.linkedin.com/in/ishansuri19"><BsLinkedin className="icons" /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div className="teamPosition">
           <p>Technology Head</p>
           <div className="teamMemberCardContainer">
             <div className="teamMemberCard">
@@ -271,47 +311,6 @@ function teamMembers() {
           </div>
         </div>
 
-
-        <div className="teamPosition">
-          <p>Mentor</p>
-          <div className="teamMemberCardContainer">
-            <div className="teamMemberCard">
-              <img className="teamMemberImage" src={kapil} alt="Kapil"></img>
-              <div className="teamMemberName">
-                <p className="firstName">Kapil</p>
-                <p className="lastName">Aggarwal</p>
-              </div>
-              <div className="teamMemberSocialMedia">
-                <a className="teamMemberLink" href="/"><AiFillInstagram className="icons" /></a>
-                <a className="teamMemberLink" href="/"><BsLinkedin className="icons" /></a>
-              </div>
-            </div>
-            <div className="teamMemberCard">
-              <img className="teamMemberImage" src={naman} alt="Naman"></img>
-              <div className="teamMemberName">
-                <p className="firstName">Naman</p>
-                <p className="lastName">Aggarwal</p>
-              </div>
-              <div className="teamMemberSocialMedia">
-                <a className="teamMemberLink" href="/"><AiFillInstagram className="icons" /></a>
-                <a className="teamMemberLink" href="/"><BsLinkedin className="icons" /></a>
-              </div>
-            </div>
-            <div className="teamMemberCard">
-              <img className="teamMemberImage" src={hmvarshney} alt="HM Varshney"></img>
-              <div className="teamMemberName">
-                <p className="firstName">HM</p>
-                <p className="lastName">Varshney</p>
-              </div>
-              <div className="teamMemberSocialMedia">
-                <a className="teamMemberLink" href="/"><AiFillInstagram className="icons" /></a>
-                <a className="teamMemberLink" href="/"><BsLinkedin className="icons" /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
         <div className="teamPosition">
           <p>Design Head</p>
           <div className="teamMemberCardContainer">
@@ -323,35 +322,6 @@ function teamMembers() {
               </div>
               <div className="teamMemberSocialMedia">
                 <a className="teamMemberLink" href="/"><AiFillInstagram className="icons" /></a>
-                <a className="teamMemberLink" href="/"><BsLinkedin className="icons" /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="teamPosition">
-          <p>Content Head</p>
-          <div className="teamMemberCardContainer">
-            <div className="teamMemberCard">
-              <img className="teamMemberImage" src={priyanshi} alt="Priyanshi"></img>
-              <div className="teamMemberName">
-                <p className="firstName">Priyanshi</p>
-                <p className="lastName">Goel</p>
-              </div>
-              <div className="teamMemberSocialMedia">
-                <a className="teamMemberLink" href="https://www.instagram.com/_priyanshi_goel/"><AiFillInstagram className="icons" /></a>
-                <a className="teamMemberLink" href="https://www.linkedin.com/in/priyanshi-goel-7b6a42210/"><BsLinkedin className="icons" /></a>
-              </div>
-            </div>
-            <div className="teamMemberCard">
-              <img className="teamMemberImage" src={krati} alt="Krati"></img>
-              <div className="teamMemberName">
-                <p className="firstName">Krati</p>
-                <p className="lastName">Jain</p>
-              </div>
-              <div className="teamMemberSocialMedia">
-                <a className="teamMemberLink" href="https://instagram.com/kratijain_9?igshid=ZDdkNTZiNTM="><AiFillInstagram className="icons" /></a>
-
                 <a className="teamMemberLink" href="/"><BsLinkedin className="icons" /></a>
               </div>
             </div>
@@ -384,6 +354,36 @@ function teamMembers() {
                 <a className="teamMemberLink" href="https://instagram.com/i_atharav?igshid=ZDdkNTZiNTM="><AiFillInstagram className="icons" /></a>
 
                 <a className="teamMemberLink" href="https://www.linkedin.com/in/atharav-mahajan-139352201/"><BsLinkedin className="icons" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <div className="teamPosition">
+          <p>Content Head</p>
+          <div className="teamMemberCardContainer">
+            <div className="teamMemberCard">
+              <img className="teamMemberImage" src={priyanshi} alt="Priyanshi"></img>
+              <div className="teamMemberName">
+                <p className="firstName">Priyanshi</p>
+                <p className="lastName">Goel</p>
+              </div>
+              <div className="teamMemberSocialMedia">
+                <a className="teamMemberLink" href="https://www.instagram.com/_priyanshi_goel/"><AiFillInstagram className="icons" /></a>
+                <a className="teamMemberLink" href="https://www.linkedin.com/in/priyanshi-goel-7b6a42210/"><BsLinkedin className="icons" /></a>
+              </div>
+            </div>
+            <div className="teamMemberCard">
+              <img className="teamMemberImage" src={krati} alt="Krati"></img>
+              <div className="teamMemberName">
+                <p className="firstName">Krati</p>
+                <p className="lastName">Jain</p>
+              </div>
+              <div className="teamMemberSocialMedia">
+                <a className="teamMemberLink" href="https://instagram.com/kratijain_9?igshid=ZDdkNTZiNTM="><AiFillInstagram className="icons" /></a>
+
+                <a className="teamMemberLink" href="/"><BsLinkedin className="icons" /></a>
               </div>
             </div>
           </div>
