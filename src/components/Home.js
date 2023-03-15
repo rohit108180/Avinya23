@@ -23,7 +23,7 @@ function Home() {
         setLoading(true);
         setTimeout(() => {
             setLoading(false);
-        }, 4800);
+        }, 5000);
     }, []);
 
 
