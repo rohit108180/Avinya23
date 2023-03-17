@@ -10,11 +10,17 @@ export default function Banner() {
     const codeRef = useRef(null);
     const [pop, setPop] = useState("hidden");
     const visi = () => {
+
+       
         if (pop === "hidden") {
             setPop("visible");
         } else {
             setPop("hidden");
         }
+
+        setTimeout(() => {
+            setPop("hidden");
+        }, 2000);
     };
     useEffect(() => {
         var typewriter = new Typewriter(partRef.current, {
@@ -26,7 +32,7 @@ export default function Banner() {
         });
         typewriter.pauseFor(300).start();
         var typewriter2 = new Typewriter(codeRef.current, {
-            strings: "6000+",
+            strings: "1 Lakh+",
             cursor: "",
             autoStart: true,
             loop: true,
@@ -43,7 +49,7 @@ export default function Banner() {
                         Registrations opening soon !!!
                         </p>
                         <p>Join our discord server for constant updates.</p>
-                    </div>
+            </div>
             <div className="container1">
                 <img className="avinya-logo" src={logo} alt="avinya-logo" />
                 <div className="container2">
