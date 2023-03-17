@@ -142,6 +142,10 @@
 
 
 @media only screen and (max-width: 600px) {
+    .banner{
+        background-image: url("./banner-mob1.png");
+
+    }
     .avinya-logo{
         align-self: center;
         width: 70vw;
